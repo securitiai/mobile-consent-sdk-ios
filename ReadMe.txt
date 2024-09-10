@@ -1,1 +1,3 @@
-Place holder file, please update this
+# Securiti, Inc. Mobile App Consent SDK (iOS)
+
+Mobile App Consent SDK (iOS)
