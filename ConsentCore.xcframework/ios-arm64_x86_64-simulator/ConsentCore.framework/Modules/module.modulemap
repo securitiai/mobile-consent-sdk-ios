@@ -1,6 +1,0 @@
-framework module ConsentCore {
-  umbrella header "ConsentCore.h"
-  export *
-
-  module * { export * }
-}

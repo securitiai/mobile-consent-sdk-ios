@@ -1,6 +1,0 @@
-framework module ConsentUI {
-  umbrella header "ConsentUI.h"
-  export *
-
-  module * { export * }
-}
