@@ -201,8 +201,9 @@ public enum PermissionStatus : Swift.String, Swift.Codable, Swift.Hashable, Swif
     get
   }
 }
+
 public struct PostConsentsRequest {
-  public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, explicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentUI.PurposeConsent], permissions: [ConsentUI.PermissionConsent])
+  public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, implicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentUI.PurposeConsent], permissions: [ConsentUI.PermissionConsent])
 }
 extension ConsentUI.PostConsentsRequest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -396,6 +397,8 @@ public struct Purpose {
   public var sdks: [ConsentUI.SDK]?
   public var consentStatus: ConsentUI.ConsentStatus?
   public var disableOptOut: Swift.Bool?
+  public var optOutText: [Swift.String : Swift.String]?
+  public var hideDetails: Swift.Bool?
   public var isATTMapped: Swift.Bool?
   public var attDescription: [Swift.String : Swift.String]?
 }
