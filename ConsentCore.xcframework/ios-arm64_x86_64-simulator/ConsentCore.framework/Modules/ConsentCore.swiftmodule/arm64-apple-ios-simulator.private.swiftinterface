@@ -179,6 +179,7 @@ public struct AppPermission {
   public var groupId: Swift.Int?
   public var consentStatus: ConsentCore.ConsentStatus?
   public var nameMap: [Swift.String : Swift.String]?
+  public var isSettingsPromptEnabled: Swift.Bool?
 }
 extension ConsentCore.AppPermission : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws

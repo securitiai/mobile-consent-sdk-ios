@@ -27,6 +27,7 @@ import UIKit
 import UserNotifications
 import WebKit
 import _Concurrency
+import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct SettingsPrompt {
@@ -378,6 +379,7 @@ public struct AppPermission {
   public var groupId: Swift.Int?
   public var consentStatus: ConsentUI.ConsentStatus?
   public var nameMap: [Swift.String : Swift.String]?
+  public var isSettingsPromptEnabled: Swift.Bool?
 }
 extension ConsentUI.AppPermission : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -413,6 +415,7 @@ extension ConsentUI.Purpose : Swift.Hashable {
     get
   }
 }
+
 public enum HttpMethod : Swift.String {
   case get
   case post
@@ -521,9 +524,6 @@ extension ConsentUI.ConsentSDK {
   public func checkConsentBy(permissionId: ConsentUI.PrivaciKey, callback: @escaping (ConsentUI.ConsentStatus) -> Swift.Void)
 }
 extension SwiftUI.Image {
-  public static var preferenceImage: SwiftUI.Image {
-    get
-  }
   public static var dismiss: SwiftUI.Image {
     get
   }
@@ -542,7 +542,16 @@ extension SwiftUI.Image {
   public static var forwardArrow: SwiftUI.Image {
     get
   }
-  public static var securitiLogo: SwiftUI.Image {
+  public static var securitiLogoText: SwiftUI.Image {
+    get
+  }
+  public static var securitiMascot: SwiftUI.Image {
+    get
+  }
+  public static var poweredBy: SwiftUI.Image {
+    get
+  }
+  public static var info: SwiftUI.Image {
     get
   }
   public static func createImage(_ value: Foundation.Data?, defaultImage: SwiftUI.Image) -> SwiftUI.Image
