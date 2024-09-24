@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
     s.name         = 'ConsentCore'
     s.version      = '1.122.0'
-    s.summary      = 'Securiti\'s SDK offers a lightweight CMP without a UI, ideal for custom interfaces or apps with size limitations.'
+    s.summary      = 'Securiti\'s mobile SDK provides a lightweight CMP without a UI, ideal for custom interfaces or size constraints.'
     s.description  = <<-DESC
-Lightweight CMP SDK without UI, enabling custom implementations and privacy compliance for apps with size constraints.
+Manage user privacy preferences with core functionalities, suited for custom UIs or limited app sizes, maintaining compliance.
                     DESC
     s.homepage     = 'https://github.com/securitiai/mobile-consent-sdk-ios'
     s.license      = { :type => 'MIT License', :file => 'LICENSE' }
