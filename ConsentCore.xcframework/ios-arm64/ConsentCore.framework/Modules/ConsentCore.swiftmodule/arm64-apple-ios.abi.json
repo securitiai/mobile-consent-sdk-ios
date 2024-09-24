@@ -7845,6 +7845,116 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isSettingsPromptEnabled",
+            "printedName": "isSettingsPromptEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ConsentCore13AppPermissionV23isSettingsPromptEnabledSbSgvp",
+            "mangledName": "$s11ConsentCore13AppPermissionV23isSettingsPromptEnabledSbSgvp",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore13AppPermissionV23isSettingsPromptEnabledSbSgvg",
+                "mangledName": "$s11ConsentCore13AppPermissionV23isSettingsPromptEnabledSbSgvg",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore13AppPermissionV23isSettingsPromptEnabledSbSgvs",
+                "mangledName": "$s11ConsentCore13AppPermissionV23isSettingsPromptEnabledSbSgvs",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore13AppPermissionV23isSettingsPromptEnabledSbSgvM",
+                "mangledName": "$s11ConsentCore13AppPermissionV23isSettingsPromptEnabledSbSgvM",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -21338,112 +21448,112 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 572,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 597,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 632,
       "length": 15,
       "value": "\"permission_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 628,
+      "offset": 675,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 710,
       "length": 7,
       "value": "\"group\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 741,
       "length": 10,
       "value": "\"group_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 781,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 821,
       "length": 10,
       "value": "\"nameI18N\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 572,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 597,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 632,
       "length": 15,
       "value": "\"permission_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 628,
+      "offset": 675,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 710,
       "length": 7,
       "value": "\"group\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 741,
       "length": 10,
       "value": "\"group_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 781,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 821,
       "length": 10,
       "value": "\"nameI18N\""
     },
@@ -22941,63 +23051,84 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2296,
+      "offset": 2286,
+      "length": 13,
+      "value": "\"Not Allowed\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2324,
+      "length": 9,
+      "value": "\"Allowed\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2357,
+      "length": 8,
+      "value": "\"Update\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2404,
       "length": 18,
       "value": "\"CONSENT_EXPLICIT\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2348,
+      "offset": 2456,
       "length": 18,
       "value": "\"CONSENT_IMPLICIT\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2509,
       "length": 19,
       "value": "\"CONSENT_NO_ACTION\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2576,
       "length": 27,
       "value": "\"HAS_SHOWN_SETTINGS_PROMPT\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2534,
+      "offset": 2642,
       "length": 23,
       "value": "\"PENDING_PURPOSES_LIST\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
+      "offset": 2702,
       "length": 15,
       "value": "\"SAVED_PREFILL\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 2764,
       "length": 25,
       "value": "\"CURRENT_COMPLIANCE_TYPE\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2839,
       "length": 28,
       "value": "\"IS_SETTINGS_PROMPT_ENABLED\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2797,
+      "offset": 2905,
       "length": 16,
       "value": "\"LAST_MODE_USED\""
     },

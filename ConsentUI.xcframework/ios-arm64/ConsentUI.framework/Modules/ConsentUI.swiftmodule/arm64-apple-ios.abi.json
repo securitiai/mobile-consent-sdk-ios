@@ -17228,6 +17228,116 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isSettingsPromptEnabled",
+            "printedName": "isSettingsPromptEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ConsentUI13AppPermissionV23isSettingsPromptEnabledSbSgvp",
+            "mangledName": "$s9ConsentUI13AppPermissionV23isSettingsPromptEnabledSbSgvp",
+            "moduleName": "ConsentUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ConsentUI13AppPermissionV23isSettingsPromptEnabledSbSgvg",
+                "mangledName": "$s9ConsentUI13AppPermissionV23isSettingsPromptEnabledSbSgvg",
+                "moduleName": "ConsentUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ConsentUI13AppPermissionV23isSettingsPromptEnabledSbSgvs",
+                "mangledName": "$s9ConsentUI13AppPermissionV23isSettingsPromptEnabledSbSgvs",
+                "moduleName": "ConsentUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ConsentUI13AppPermissionV23isSettingsPromptEnabledSbSgvM",
+                "mangledName": "$s9ConsentUI13AppPermissionV23isSettingsPromptEnabledSbSgvM",
+                "moduleName": "ConsentUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -18916,6 +19026,16 @@
             "usr": "s:SQ",
             "mangledName": "$sSQ"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -21753,6 +21873,13 @@
       },
       {
         "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "ConsentUI"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -22170,47 +22297,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "preferenceImage",
-            "printedName": "preferenceImage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Image",
-                "printedName": "SwiftUI.Image",
-                "usr": "s:7SwiftUI5ImageV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7SwiftUI5ImageV07ConsentB0E010preferenceC0ACvpZ",
-            "mangledName": "$s7SwiftUI5ImageV07ConsentB0E010preferenceC0ACvpZ",
-            "moduleName": "ConsentUI",
-            "static": true,
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Image",
-                    "printedName": "SwiftUI.Image",
-                    "usr": "s:7SwiftUI5ImageV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7SwiftUI5ImageV07ConsentB0E010preferenceC0ACvgZ",
-                "mangledName": "$s7SwiftUI5ImageV07ConsentB0E010preferenceC0ACvgZ",
-                "moduleName": "ConsentUI",
-                "static": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "dismiss",
             "printedName": "dismiss",
             "children": [
@@ -22457,8 +22543,8 @@
           },
           {
             "kind": "Var",
-            "name": "securitiLogo",
-            "printedName": "securitiLogo",
+            "name": "securitiLogoText",
+            "printedName": "securitiLogoText",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -22468,8 +22554,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7SwiftUI5ImageV07ConsentB0E12securitiLogoACvpZ",
-            "mangledName": "$s7SwiftUI5ImageV07ConsentB0E12securitiLogoACvpZ",
+            "usr": "s:7SwiftUI5ImageV07ConsentB0E16securitiLogoTextACvpZ",
+            "mangledName": "$s7SwiftUI5ImageV07ConsentB0E16securitiLogoTextACvpZ",
             "moduleName": "ConsentUI",
             "static": true,
             "isFromExtension": true,
@@ -22487,8 +22573,131 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7SwiftUI5ImageV07ConsentB0E12securitiLogoACvgZ",
-                "mangledName": "$s7SwiftUI5ImageV07ConsentB0E12securitiLogoACvgZ",
+                "usr": "s:7SwiftUI5ImageV07ConsentB0E16securitiLogoTextACvgZ",
+                "mangledName": "$s7SwiftUI5ImageV07ConsentB0E16securitiLogoTextACvgZ",
+                "moduleName": "ConsentUI",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "securitiMascot",
+            "printedName": "securitiMascot",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ImageV07ConsentB0E14securitiMascotACvpZ",
+            "mangledName": "$s7SwiftUI5ImageV07ConsentB0E14securitiMascotACvpZ",
+            "moduleName": "ConsentUI",
+            "static": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ImageV07ConsentB0E14securitiMascotACvgZ",
+                "mangledName": "$s7SwiftUI5ImageV07ConsentB0E14securitiMascotACvgZ",
+                "moduleName": "ConsentUI",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "poweredBy",
+            "printedName": "poweredBy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ImageV07ConsentB0E9poweredByACvpZ",
+            "mangledName": "$s7SwiftUI5ImageV07ConsentB0E9poweredByACvpZ",
+            "moduleName": "ConsentUI",
+            "static": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ImageV07ConsentB0E9poweredByACvgZ",
+                "mangledName": "$s7SwiftUI5ImageV07ConsentB0E9poweredByACvgZ",
+                "moduleName": "ConsentUI",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ImageV07ConsentB0E4infoACvpZ",
+            "mangledName": "$s7SwiftUI5ImageV07ConsentB0E4infoACvpZ",
+            "moduleName": "ConsentUI",
+            "static": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ImageV07ConsentB0E4infoACvgZ",
+                "mangledName": "$s7SwiftUI5ImageV07ConsentB0E4infoACvgZ",
                 "moduleName": "ConsentUI",
                 "static": true,
                 "isFromExtension": true,
@@ -24454,112 +24663,112 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 572,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 597,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 632,
       "length": 15,
       "value": "\"permission_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 628,
+      "offset": 675,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 710,
       "length": 7,
       "value": "\"group\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 741,
       "length": 10,
       "value": "\"group_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 781,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 821,
       "length": 10,
       "value": "\"nameI18N\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 572,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 597,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 632,
       "length": 15,
       "value": "\"permission_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 628,
+      "offset": 675,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 710,
       "length": 7,
       "value": "\"group\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 741,
       "length": 10,
       "value": "\"group_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 781,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 821,
       "length": 10,
       "value": "\"nameI18N\""
     },
@@ -25259,63 +25468,84 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2296,
+      "offset": 2286,
+      "length": 13,
+      "value": "\"Not Allowed\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2324,
+      "length": 9,
+      "value": "\"Allowed\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2357,
+      "length": 8,
+      "value": "\"Update\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2404,
       "length": 18,
       "value": "\"CONSENT_EXPLICIT\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2348,
+      "offset": 2456,
       "length": 18,
       "value": "\"CONSENT_IMPLICIT\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2509,
       "length": 19,
       "value": "\"CONSENT_NO_ACTION\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2576,
       "length": 27,
       "value": "\"HAS_SHOWN_SETTINGS_PROMPT\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2534,
+      "offset": 2642,
       "length": 23,
       "value": "\"PENDING_PURPOSES_LIST\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
+      "offset": 2702,
       "length": 15,
       "value": "\"SAVED_PREFILL\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 2764,
       "length": 25,
       "value": "\"CURRENT_COMPLIANCE_TYPE\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2839,
       "length": 28,
       "value": "\"IS_SETTINGS_PROMPT_ENABLED\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2797,
+      "offset": 2905,
       "length": 16,
       "value": "\"LAST_MODE_USED\""
     },
@@ -25336,7 +25566,7 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PermissionsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 9265,
+      "offset": 11351,
       "length": 2,
       "value": "\"\""
     },
@@ -25420,35 +25650,35 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "StringLiteral",
-      "offset": 2276,
+      "offset": 2336,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2336,
+      "offset": 2396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2380,
+      "offset": 2440,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2420,
+      "offset": 2480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2966,
+      "offset": 3092,
       "length": 5,
       "value": "false"
     },
@@ -25651,21 +25881,35 @@
     {
       "filePath": "\/Users\/rohanchavda\/Library\/Developer\/Xcode\/DerivedData\/ConsentUI-buhylcbtrpaipyajdlqbhlpqlemm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ConsentUI\/IntermediateBuildFilesPath\/ConsentUI.build\/Release-iphoneos\/ConsentUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
-      "length": 17,
-      "value": "\"preferenceImage\""
+      "offset": 1456,
+      "length": 11,
+      "value": "\"poweredBy\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/Library\/Developer\/Xcode\/DerivedData\/ConsentUI-buhylcbtrpaipyajdlqbhlpqlemm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ConsentUI\/IntermediateBuildFilesPath\/ConsentUI.build\/Release-iphoneos\/ConsentUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
+      "offset": 1601,
       "length": 14,
       "value": "\"securitiLogo\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/Library\/Developer\/Xcode\/DerivedData\/ConsentUI-buhylcbtrpaipyajdlqbhlpqlemm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ConsentUI\/IntermediateBuildFilesPath\/ConsentUI.build\/Release-iphoneos\/ConsentUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1752,
+      "offset": 1757,
+      "length": 18,
+      "value": "\"securitiLogoText\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/Library\/Developer\/Xcode\/DerivedData\/ConsentUI-buhylcbtrpaipyajdlqbhlpqlemm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ConsentUI\/IntermediateBuildFilesPath\/ConsentUI.build\/Release-iphoneos\/ConsentUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1913,
+      "length": 16,
+      "value": "\"securitiMascot\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/Library\/Developer\/Xcode\/DerivedData\/ConsentUI-buhylcbtrpaipyajdlqbhlpqlemm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ConsentUI\/IntermediateBuildFilesPath\/ConsentUI.build\/Release-iphoneos\/ConsentUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2053,
       "length": 9,
       "value": "\"upArrow\""
     }
