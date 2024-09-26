@@ -23107,28 +23107,35 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-conflict\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2702,
+      "offset": 2707,
+      "length": 26,
+      "value": "\"PENDING_PERMISSIONS_LIST\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-conflict\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2770,
       "length": 15,
       "value": "\"SAVED_PREFILL\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-conflict\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2764,
+      "offset": 2832,
       "length": 25,
       "value": "\"CURRENT_COMPLIANCE_TYPE\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-conflict\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2839,
+      "offset": 2907,
       "length": 28,
       "value": "\"IS_SETTINGS_PROMPT_ENABLED\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-conflict\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2905,
+      "offset": 2973,
       "length": 16,
       "value": "\"LAST_MODE_USED\""
     },

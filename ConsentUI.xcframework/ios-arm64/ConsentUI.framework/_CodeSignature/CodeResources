@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		B3f8YQQzK6CI3uoeXtC9uqiUWOg=
+		I4ZRotmG4tNkH/uFWEsnhKEcrco=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Y6jIMfUC72mB3ZHaml8ITvybaIM=
+		SnjESyJWmAPGB23qMZ7nsyWt28k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,6 +47,10 @@
 		<key>create_framework.sh</key>
 		<data>
 		J9Jbj+LALyj8KtnvvE9VGTYJrW4=
+		</data>
+		<key>create_framework_with_symbol.sh</key>
+		<data>
+		r+OXIsju2QjB/fq2g4CbYLjW2Lw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -69,7 +73,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uXPitiF+lSqHhL8LKxcjQzVOvT0Ahf5+1CctGmJArw4=
+			Js96/mHTNdi9S1+V5XF5EYWnXgss3gHWCawu8I4leD0=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -97,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Srg5i5fIMkw7ODRwH8wjTNfyBSvbAdHGOCtJdNT2v+k=
+			EwSUnqZKTSsaMGynP93+SZuRZf5Pc6RUHcm9PfrwfbA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -119,6 +123,13 @@
 			<key>hash2</key>
 			<data>
 			WVT6Drz84woy1npM8rLGylTsCjDOLhSF4vcJSf/TehM=
+			</data>
+		</dict>
+		<key>create_framework_with_symbol.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Wyvgr6y64oIRGwnio/jVNRMdp5aWwS5NyeWE+c6DxzQ=
 			</data>
 		</dict>
 	</dict>
