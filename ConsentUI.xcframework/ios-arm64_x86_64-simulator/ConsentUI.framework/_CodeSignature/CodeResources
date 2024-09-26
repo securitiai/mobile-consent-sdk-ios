@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		f/VRlksslldXcrG9fwlyqkQFjfo=
+		dCIT4JuG59qMxCSQT5psKgpd7Xo=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kYQ2Mi+x2oMDOxVYThFuOdinR4E=
+		LNA+ScGq6EfwXz1h/k/Bm8GlH6k=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		f/VRlksslldXcrG9fwlyqkQFjfo=
+		dCIT4JuG59qMxCSQT5psKgpd7Xo=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		01CCiJS0v8+1syoerFiaB6HWSaU=
+		KJ2c0mS6iFR2PX2gdfTN3AiqRuU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,6 +67,10 @@
 		<key>create_framework.sh</key>
 		<data>
 		J9Jbj+LALyj8KtnvvE9VGTYJrW4=
+		</data>
+		<key>create_framework_with_symbol.sh</key>
+		<data>
+		r+OXIsju2QjB/fq2g4CbYLjW2Lw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -89,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oWTLRNHbcqZky4KnZh75GxVXMQwSkdbQDWhV1gU4pkY=
+			FCuaZjtc39KhqDLlTLnVaQXZ3RwFQ1ITTjoQC4ZHTOQ=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F8PAxpCyRYtWLwLfkW+q3+ekqo9MWYO1JbyXakatTUc=
+			XGObRLT+8Ncz/HSBW2SNem4tuYdLvvc5ZP92TfeYMRc=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oWTLRNHbcqZky4KnZh75GxVXMQwSkdbQDWhV1gU4pkY=
+			FCuaZjtc39KhqDLlTLnVaQXZ3RwFQ1ITTjoQC4ZHTOQ=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7DQKmeVejiXO0OF2wFBKL3U03bAXkoF/Y0nqM7qBCo=
+			zFqF+kjj2nzg8xdl40834wjAv0syNabfcZ+pmcm+eWY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -174,6 +178,13 @@
 			<key>hash2</key>
 			<data>
 			WVT6Drz84woy1npM8rLGylTsCjDOLhSF4vcJSf/TehM=
+			</data>
+		</dict>
+		<key>create_framework_with_symbol.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Wyvgr6y64oIRGwnio/jVNRMdp5aWwS5NyeWE+c6DxzQ=
 			</data>
 		</dict>
 	</dict>
