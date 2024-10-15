@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ConsentUI
 import AVFoundation
+import AdSupport
 import AppTrackingTransparency
 import Combine
 @_exported import ConsentUI
@@ -204,7 +205,7 @@ public enum PermissionStatus : Swift.String, Swift.Codable, Swift.Hashable, Swif
 }
 
 public struct PostConsentsRequest {
-  public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, implicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentUI.PurposeConsent], permissions: [ConsentUI.PermissionConsent])
+  public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, implicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentUI.PurposeConsent], permissions: [ConsentUI.PermissionConsent], testingMode: Swift.Bool, adId: Swift.String = "")
 }
 extension ConsentUI.PostConsentsRequest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
