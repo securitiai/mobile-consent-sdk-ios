@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z4qEYSaxbRqSsogyKp1uvCJn/0I=
+		1+R6PcVF6NXebiFXBAhz2ySj2IU=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iHbOl0KBhCekxUWosh70/NZJOxU=
+		ZUj8o3ibsgBZLx+TQgff5QXcop4=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bOIKoF3jHu6T973xXq8j+9qHEpU=
+		9VsbwqD8+p9zin8DGc4tl3n4kjs=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bOIKoF3jHu6T973xXq8j+9qHEpU=
+		9VsbwqD8+p9zin8DGc4tl3n4kjs=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		52aHX7Bz75N9H+4OOfcLEWcgHQI=
+		28kXPRtIeKeZbVeBMA0vRAX/A7E=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iHbOl0KBhCekxUWosh70/NZJOxU=
+		ZUj8o3ibsgBZLx+TQgff5QXcop4=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		If9RICA4+FPXBtQFVbSunhfLRyg=
+		cx8+4nhQO4u2y+wo5w84mVYJZQw=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		If9RICA4+FPXBtQFVbSunhfLRyg=
+		cx8+4nhQO4u2y+wo5w84mVYJZQw=
 		</data>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SVdt5TQjpsS+cqLc0Zy0rUIClRY=
+		70ZWI2JCL+N2KmYqkowkVp4erxY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,14 +63,6 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		3mBqq2YOlFO78Znsolp1J+kU6Wo=
-		</data>
-		<key>create_framework.sh</key>
-		<data>
-		J9Jbj+LALyj8KtnvvE9VGTYJrW4=
-		</data>
-		<key>create_framework_with_symbol.sh</key>
-		<data>
-		r+OXIsju2QjB/fq2g4CbYLjW2Lw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -93,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+/Gs1WlZCeib0lEc5+VfTaOzag7q7ji7ai0mvGIw/jA=
+			StR0rkhvK+p8eDT+Wmp4P7vge3nQGCZ1rWOQ3V9x7Wk=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hrRxmeH3vjKZOqTlrQgbH1A4OFpQGrrROWZtsKGuGU=
+			7apIsc+CCAZm976ZnLJ7fp1ADy1skR1Ieo2KRGr43Ho=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -114,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hrRxmeH3vjKZOqTlrQgbH1A4OFpQGrrROWZtsKGuGU=
+			7apIsc+CCAZm976ZnLJ7fp1ADy1skR1Ieo2KRGr43Ho=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UMObZPgyFYZnGfsuQZcdhZtIkr6IXfpTp2UZ7xWLBaM=
+			4laEunOIlIbzHyuMxgrphAaRRPqtJjq5j+OPxJyZnsk=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+/Gs1WlZCeib0lEc5+VfTaOzag7q7ji7ai0mvGIw/jA=
+			StR0rkhvK+p8eDT+Wmp4P7vge3nQGCZ1rWOQ3V9x7Wk=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jrlUn19ptg1iuV5LdiOMvQz/Qw8geBO+u62A7WjQh8E=
+			yH3MI8ZMA3ZpTO2TzDXwJ4wc0JjajnEUjFV5NgQNrxA=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jrlUn19ptg1iuV5LdiOMvQz/Qw8geBO+u62A7WjQh8E=
+			yH3MI8ZMA3ZpTO2TzDXwJ4wc0JjajnEUjFV5NgQNrxA=
 			</data>
 		</dict>
 		<key>Modules/ConsentUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XSKzS6oVE929lJ9UIQNbSBRnzFSzkqwZD6xZxdmQQVo=
+			DwqYhsFKO7ZkAJtX8ITaMY87P2EfsocmcgqC7qiPNoI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -171,20 +163,6 @@
 			<key>hash2</key>
 			<data>
 			zfAOZ3kH0PPGB4np+s661hAmrNVkQU5Zw2yQjhmMSfg=
-			</data>
-		</dict>
-		<key>create_framework.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WVT6Drz84woy1npM8rLGylTsCjDOLhSF4vcJSf/TehM=
-			</data>
-		</dict>
-		<key>create_framework_with_symbol.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wyvgr6y64oIRGwnio/jVNRMdp5aWwS5NyeWE+c6DxzQ=
 			</data>
 		</dict>
 	</dict>

@@ -4425,6 +4425,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "ConsentUI"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDKLogger",
         "printedName": "SDKLogger",
@@ -6010,7 +6017,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(uuid:appUUID:device:implicitConsent:version:purposeConsents:permissions:)",
+            "printedName": "init(uuid:appUUID:device:implicitConsent:version:purposeConsents:permissions:testingMode:adId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6075,11 +6082,24 @@
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9ConsentUI19PostConsentsRequestV4uuid7appUUID6device08implicitA07version07purposeD011permissionsACSS_S2SSbSiSayAA07PurposeA0VGSayAA010PermissionA0VGtcfc",
-            "mangledName": "$s9ConsentUI19PostConsentsRequestV4uuid7appUUID6device08implicitA07version07purposeD011permissionsACSS_S2SSbSiSayAA07PurposeA0VGSayAA010PermissionA0VGtcfc",
+            "usr": "s:9ConsentUI19PostConsentsRequestV4uuid7appUUID6device08implicitA07version07purposeD011permissions11testingMode4adIdACSS_S2SSbSiSayAA07PurposeA0VGSayAA010PermissionA0VGSbSStcfc",
+            "mangledName": "$s9ConsentUI19PostConsentsRequestV4uuid7appUUID6device08implicitA07version07purposeD011permissions11testingMode4adIdACSS_S2SSbSiSayAA07PurposeA0VGSayAA010PermissionA0VGSbSStcfc",
             "moduleName": "ConsentUI",
             "declAttributes": [
               "AccessControl"
@@ -13682,6 +13702,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConsentUI"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
         "declKind": "Import",
         "moduleName": "ConsentUI"
       },
@@ -21737,6 +21764,13 @@
       },
       {
         "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "ConsentUI"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -22011,6 +22045,13 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ConsentUI"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
         "declKind": "Import",
         "moduleName": "ConsentUI"
       },
@@ -23571,105 +23612,140 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 343,
+      "offset": 392,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 674,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
       "length": 10,
       "value": "\"app_uuid\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1207,
       "length": 18,
       "value": "\"implicit_consent\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1278,
       "length": 18,
       "value": "\"purpose_consents\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 1349,
+      "length": 14,
+      "value": "\"is_test_mode\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 7,
+      "value": "\"ad_id\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
       "length": 10,
       "value": "\"app_uuid\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1207,
       "length": 18,
       "value": "\"implicit_consent\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1278,
       "length": 18,
       "value": "\"purpose_consents\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1391,
+      "offset": 1349,
+      "length": 14,
+      "value": "\"is_test_mode\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 7,
+      "value": "\"ad_id\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
       "length": 12,
       "value": "\"purpose_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1677,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
+      "offset": 1744,
       "length": 14,
       "value": "\"is_essential\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1391,
+      "offset": 1635,
       "length": 12,
       "value": "\"purpose_id\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1677,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
+      "offset": 1744,
       "length": 14,
       "value": "\"is_essential\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 2036,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 2036,
       "length": 16,
       "value": "\"consent_status\""
     },
@@ -24362,21 +24438,21 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterViewModel.swift",
       "kind": "Array",
-      "offset": 462,
+      "offset": 479,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterViewModel.swift",
       "kind": "Dictionary",
-      "offset": 521,
+      "offset": 538,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterViewModel.swift",
       "kind": "Array",
-      "offset": 576,
+      "offset": 593,
       "length": 2,
       "value": "[]"
     },
@@ -25552,28 +25628,35 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2973,
+      "offset": 2968,
+      "length": 16,
+      "value": "\"IS_ATT_ENABLED\""
+    },
+    {
+      "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3022,
       "length": 16,
       "value": "\"LAST_MODE_USED\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3026,
+      "offset": 3075,
       "length": 15,
       "value": "\"curr_location\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3077,
+      "offset": 3126,
       "length": 18,
       "value": "\"curr_countryCode\""
     },
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 3186,
       "length": 25,
       "value": "\"curr_location_timestamp\""
     },
@@ -25587,7 +25670,7 @@
     {
       "filePath": "\/Users\/rohanchavda\/StudioProjects\/consent-mobile-sdk-buttons-fix\/iOSSDK\/ConsentCore\/ConsentCore\/ConsentSDK+InternalMethods.swift",
       "kind": "BooleanLiteral",
-      "offset": 3276,
+      "offset": 3584,
       "length": 5,
       "value": "false"
     },
