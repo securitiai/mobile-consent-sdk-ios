@@ -31,19 +31,6 @@ extension Swift.Encodable {
   public func toJSONData(dateEncodingStrategy: Foundation.JSONEncoder.DateEncodingStrategy) throws -> Foundation.Data
   public func toJSONString(dateEncodingStrategy: Foundation.JSONEncoder.DateEncodingStrategy = .iso8601) throws -> Swift.String?
 }
-public enum HttpMethod : Swift.String {
-  case get
-  case post
-  case put
-  case delete
-  case patch
-  case head
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers public class SDKLogger {
   public static let shared: ConsentCore.SDKLogger
   public var logLevel: ConsentCore.LogLevel
@@ -52,42 +39,31 @@ public enum HttpMethod : Swift.String {
 extension ConsentCore.SDKLogger {
   public func log(_ message: Swift.String, level: ConsentCore.LogLevel = .info, functionName: Swift.String = #function, fileName: Swift.String = #file, lineNnumber: Swift.Int = #line)
 }
-public struct MainConfiguration {
-  public var generatedOn: Swift.Int?
-  public var id: Swift.String?
-  public var name: Swift.String?
-  public var description: Swift.String?
-  public var tenantId: Swift.String?
-  public var platform: Swift.String?
-  public var status: Swift.String?
-  public var version: Swift.Int?
-  public var logoBase64: Swift.String?
-  public var token: Swift.String?
-  public var sdkVersion: Swift.String?
-  public var purposes: [ConsentCore.Purpose]?
-  public var permissions: [ConsentCore.AppPermission]?
-  public var bannerConfig: ConsentCore.ConsentBannerConfig?
-  public var translations: [Swift.String : [Swift.String : Swift.String]?]?
-  public var isATTEnabled: Swift.Bool?
-  public var attConfig: ConsentCore.ATTConfig?
-  public var settingPrompt: ConsentCore.SettingsPrompt?
-  public var reConsentEnabled: Swift.Bool?
-  public var isSettingsPromptEnabled: Swift.Bool?
-}
-extension ConsentCore.MainConfiguration : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension ConsentCore.MainConfiguration : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: ConsentCore.MainConfiguration, b: ConsentCore.MainConfiguration) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers public class ConsentSDK {
   public static let shared: ConsentCore.ConsentSDK
   @objc deinit
+}
+public struct AppPermission {
+  public var id: Swift.Int?
+  public var name: Swift.String?
+  public var permissionId: ConsentCore.PrivaciKey?
+  public var description: [Swift.String : Swift.String]?
+  public var group: Swift.String?
+  public var groupId: Swift.Int?
+  public var consentStatus: ConsentCore.ConsentStatus?
+  public var nameMap: [Swift.String : Swift.String]?
+  public var isSettingsPromptEnabled: Swift.Bool?
+}
+extension ConsentCore.AppPermission : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension ConsentCore.AppPermission : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.AppPermission, b: ConsentCore.AppPermission) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public enum PurposeStatus : Swift.String, Swift.Codable {
   case authorized
@@ -96,6 +72,57 @@ public enum PurposeStatus : Swift.String, Swift.Codable {
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PostConsentsRequest {
+  public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, implicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentCore.PurposeConsent], permissions: [ConsentCore.PermissionConsent], testingMode: Swift.Bool, adId: Swift.String = "")
+}
+extension ConsentCore.PostConsentsRequest : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PurposeConsent : Swift.Codable, Swift.Equatable {
+  public static func == (a: ConsentCore.PurposeConsent, b: ConsentCore.PurposeConsent) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension ConsentCore.PurposeConsent : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct PermissionConsent : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ConsentStatus : Swift.String, Swift.Codable, Swift.Hashable, Swift.Equatable {
+  case granted
+  case declined
+  case notDetermined
+  case withDrawn
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct SettingsPrompt {
+  public var promptHeading: [Swift.String : Swift.String]?
+  public var promptMessage: [Swift.String : Swift.String]?
+  public var settingsButtonText: [Swift.String : Swift.String]?
+  public var notNowButtonText: [Swift.String : Swift.String]?
+  public var permissions: [Swift.String : Swift.Bool]?
+}
+extension ConsentCore.SettingsPrompt : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension ConsentCore.SettingsPrompt : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.SettingsPrompt, b: ConsentCore.SettingsPrompt) -> Swift.Bool
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -108,8 +135,21 @@ public enum BannerPosition : Swift.String, Swift.Codable {
     get
   }
 }
-public struct ConsentSDKOptions {
-  public init(appUrl: Swift.String, cdnUrl: Swift.String, tenantId: Swift.String, appId: Swift.String, testingMode: Swift.Bool, logLevel: ConsentCore.LogLevel, consentsCheckInterval: Swift.Int, subjectId: Swift.String? = nil, languageCode: Swift.String? = nil, locationCode: Swift.String? = nil)
+public struct ATTConfig {
+  public var showInfoOnPrefCenter: Swift.Bool?
+  public var purposeIds: [Swift.Int]?
+  public var infoText: [Swift.String : Swift.String]?
+}
+extension ConsentCore.ATTConfig : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension ConsentCore.ATTConfig : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.ATTConfig, b: ConsentCore.ATTConfig) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public enum PrivaciKey : Swift.Hashable, Swift.Codable, Swift.Equatable {
   case locationWhenInUseUsageDescription
@@ -153,46 +193,6 @@ public enum PrivaciKey : Swift.Hashable, Swift.Codable, Swift.Equatable {
     get
   }
 }
-public struct SettingsPrompt {
-  public var promptHeading: [Swift.String : Swift.String]?
-  public var promptMessage: [Swift.String : Swift.String]?
-  public var settingsButtonText: [Swift.String : Swift.String]?
-  public var notNowButtonText: [Swift.String : Swift.String]?
-  public var permissions: [Swift.String : Swift.Bool]?
-}
-extension ConsentCore.SettingsPrompt : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension ConsentCore.SettingsPrompt : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: ConsentCore.SettingsPrompt, b: ConsentCore.SettingsPrompt) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct AppPermission {
-  public var id: Swift.Int?
-  public var name: Swift.String?
-  public var permissionId: ConsentCore.PrivaciKey?
-  public var description: [Swift.String : Swift.String]?
-  public var group: Swift.String?
-  public var groupId: Swift.Int?
-  public var consentStatus: ConsentCore.ConsentStatus?
-  public var nameMap: [Swift.String : Swift.String]?
-  public var isSettingsPromptEnabled: Swift.Bool?
-}
-extension ConsentCore.AppPermission : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension ConsentCore.AppPermission : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: ConsentCore.AppPermission, b: ConsentCore.AppPermission) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public struct Purpose {
   public var purposeId: Swift.Int?
   public var purposeName: [Swift.String : Swift.String]?
@@ -216,25 +216,200 @@ extension ConsentCore.Purpose : Swift.Hashable {
     get
   }
 }
-public struct ATTConfig {
-  public var showInfoOnPrefCenter: Swift.Bool?
-  public var purposeIds: [Swift.Int]?
-  public var infoText: [Swift.String : Swift.String]?
+@objc @_inheritsConvenienceInitializers public class SDKListener : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
 }
-extension ConsentCore.ATTConfig : Swift.Codable {
+public struct SDK {
+  public var sdkId: Swift.Int?
+  public var namespaceId: Swift.String?
+  public var sdkName: [Swift.String : Swift.String]?
+  public var sdkDescription: [Swift.String : Swift.String]?
+  public var vendor: Swift.String?
+  public var logoBase64: Swift.String?
+  public var website: Swift.String?
+  public var matchedBy: [Swift.String]?
+  public var collectingData: Swift.Bool?
+}
+extension ConsentCore.SDK : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension ConsentCore.ATTConfig : Swift.Hashable {
+extension ConsentCore.SDK : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: ConsentCore.ATTConfig, b: ConsentCore.ATTConfig) -> Swift.Bool
+  public static func == (a: ConsentCore.SDK, b: ConsentCore.SDK) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers public class SDKListener : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc deinit
+extension ConsentCore.SDK : Swift.Sendable {
+}
+public enum LogLevel : Swift.String {
+  case debug
+  case info
+  case warning
+  case error
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Mode : Swift.String {
+  case draft
+  case live
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct MainConfiguration {
+  public var generatedOn: Swift.Int?
+  public var id: Swift.String?
+  public var name: Swift.String?
+  public var description: Swift.String?
+  public var tenantId: Swift.String?
+  public var platform: Swift.String?
+  public var status: Swift.String?
+  public var version: Swift.Int?
+  public var logoBase64: Swift.String?
+  public var token: Swift.String?
+  public var sdkVersion: Swift.String?
+  public var purposes: [ConsentCore.Purpose]?
+  public var permissions: [ConsentCore.AppPermission]?
+  public var bannerConfig: ConsentCore.ConsentBannerConfig?
+  public var translations: [Swift.String : [Swift.String : Swift.String]?]?
+  public var isATTEnabled: Swift.Bool?
+  public var attConfig: ConsentCore.ATTConfig?
+  public var settingPrompt: ConsentCore.SettingsPrompt?
+  public var reConsentEnabled: Swift.Bool?
+  public var isSettingsPromptEnabled: Swift.Bool?
+}
+extension ConsentCore.MainConfiguration : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension ConsentCore.MainConfiguration : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.MainConfiguration, b: ConsentCore.MainConfiguration) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum NetworkError : Swift.Error, @unchecked Swift.Sendable {
+  case response([Swift.String : Any]?)
+  case keyMapping
+  case invalidPath(message: Swift.String)
+  case badUrl(message: Swift.String)
+  case invalidStatusCode(code: Swift.Int)
+  case decodingError(message: Swift.String)
+  case invalidURL(message: Swift.String)
+}
+extension ConsentCore.NetworkError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension ConsentCore.NetworkError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension ConsentCore.ConsentSDK {
+  public func setupSDK(options: ConsentCore.ConsentSDKOptions)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func uploadConsents(url: Swift.String, request: ConsentCore.PostConsentsRequest) async
+  #endif
+  public func isReady(callback: @escaping (ConsentCore.SDKStatus) -> Swift.Void)
+  public func getStatus() -> ConsentCore.SDKStatus
+  public func removeListeners()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getPermissionConsents() async -> [ConsentCore.AppPermission]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getPurposeConsents() async -> [ConsentCore.Purpose]
+  #endif
+  public func setConsent(purpose: ConsentCore.Purpose, consent: ConsentCore.ConsentStatus) -> Swift.Bool
+  public func setConsent(permission: ConsentCore.AppPermission, consent: ConsentCore.ConsentStatus) -> Swift.Bool
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getBannerConfig(_ configuration: ConsentCore.MainConfiguration? = nil) async -> ConsentCore.BannerConfig?
+  #endif
+  public func removeConsents()
+  public func getConsent(privaciKey: ConsentCore.PrivaciKey) -> ConsentCore.ConsentStatus
+  public func getConsent(purposeId: Swift.Int) -> ConsentCore.ConsentStatus
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getSettingsPrompt() async -> ConsentCore.SettingsPrompt?
+  #endif
+}
+public enum HttpMethod : Swift.String {
+  case get
+  case post
+  case put
+  case delete
+  case patch
+  case head
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ComplianceType : Swift.String, Swift.Codable {
+  case noticeOnly
+  case optIn
+  case optOut
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ButtonShape : Swift.String, Swift.Codable {
+  case rounded
+  case square
+  case pill
+  case outlined
+  case edgeless
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public enum SDKStatus : Swift.Int {
+  case available
+  case notAvailable
+  case inProgress
+  public func status() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum PermissionStatus : Swift.String, Swift.Codable, Swift.Hashable, Swift.Equatable {
+  case authorized
+  case authorizedAlways
+  case authorizedWhenInUse
+  case denied
+  case restricted
+  case notDetermined
+  case unknown
+  case provisional
+  case limited
+  case notAvailable
+  case fullAccess
+  case writeOnly
+  case ephemeral
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ConsentSDKOptions {
+  public init(appUrl: Swift.String, cdnUrl: Swift.String, tenantId: Swift.String, appId: Swift.String, testingMode: Swift.Bool, logLevel: ConsentCore.LogLevel, consentsCheckInterval: Swift.Int, subjectId: Swift.String? = nil, languageCode: Swift.String? = nil, locationCode: Swift.String? = nil)
 }
 public struct ConsentBannerConfig : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -310,187 +485,10 @@ extension ConsentCore.CustomColors : Swift.Hashable {
     get
   }
 }
-public enum LogLevel : Swift.String {
-  case debug
-  case info
-  case warning
-  case error
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum Mode : Swift.String {
-  case draft
-  case live
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct PostConsentsRequest {
-  public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, implicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentCore.PurposeConsent], permissions: [ConsentCore.PermissionConsent], testingMode: Swift.Bool, adId: Swift.String = "")
-}
-extension ConsentCore.PostConsentsRequest : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct PurposeConsent : Swift.Codable, Swift.Equatable {
-  public static func == (a: ConsentCore.PurposeConsent, b: ConsentCore.PurposeConsent) -> Swift.Bool
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension ConsentCore.PurposeConsent : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct PermissionConsent : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum NetworkError : Swift.Error, @unchecked Swift.Sendable {
-  case response([Swift.String : Any]?)
-  case keyMapping
-  case invalidPath(message: Swift.String)
-  case badUrl(message: Swift.String)
-  case invalidStatusCode(code: Swift.Int)
-  case decodingError(message: Swift.String)
-  case invalidURL(message: Swift.String)
-}
-extension ConsentCore.NetworkError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
-extension ConsentCore.NetworkError : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
-extension ConsentCore.ConsentSDK {
-  public func setupSDK(options: ConsentCore.ConsentSDKOptions)
-  #if compiler(>=5.3) && $AsyncAwait
-  public func uploadConsents(url: Swift.String, request: ConsentCore.PostConsentsRequest) async
-  #endif
-  public func isReady(callback: @escaping (ConsentCore.SDKStatus) -> Swift.Void)
-  public func getStatus() -> ConsentCore.SDKStatus
-  public func removeListeners()
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getPermissionConsents() async -> [ConsentCore.AppPermission]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getPurposeConsents() async -> [ConsentCore.Purpose]
-  #endif
-  public func setConsent(purpose: ConsentCore.Purpose, consent: ConsentCore.ConsentStatus) -> Swift.Bool
-  public func setConsent(permission: ConsentCore.AppPermission, consent: ConsentCore.ConsentStatus) -> Swift.Bool
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getBannerConfig(_ configuration: ConsentCore.MainConfiguration? = nil) async -> ConsentCore.BannerConfig?
-  #endif
-  public func removeConsents()
-  public func getConsent(privaciKey: ConsentCore.PrivaciKey) -> ConsentCore.ConsentStatus
-  public func getConsent(purposeId: Swift.Int) -> ConsentCore.ConsentStatus
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getSettingsPrompt() async -> ConsentCore.SettingsPrompt?
-  #endif
-}
-public enum ConsentStatus : Swift.String, Swift.Codable, Swift.Hashable, Swift.Equatable {
-  case granted
-  case declined
-  case notDetermined
-  case withDrawn
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum ComplianceType : Swift.String, Swift.Codable {
-  case noticeOnly
-  case optIn
-  case optOut
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum ButtonShape : Swift.String, Swift.Codable {
-  case rounded
-  case square
-  case pill
-  case outlined
-  case edgeless
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-@objc public enum SDKStatus : Swift.Int {
-  case available
-  case notAvailable
-  case inProgress
-  public func status() -> Swift.String
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-public enum PermissionStatus : Swift.String, Swift.Codable, Swift.Hashable, Swift.Equatable {
-  case authorized
-  case authorizedAlways
-  case authorizedWhenInUse
-  case denied
-  case restricted
-  case notDetermined
-  case unknown
-  case provisional
-  case limited
-  case notAvailable
-  case fullAccess
-  case writeOnly
-  case ephemeral
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct SDK {
-  public var sdkId: Swift.Int?
-  public var namespaceId: Swift.String?
-  public var sdkName: [Swift.String : Swift.String]?
-  public var sdkDescription: [Swift.String : Swift.String]?
-  public var vendor: Swift.String?
-  public var logoBase64: Swift.String?
-  public var website: Swift.String?
-  public var matchedBy: [Swift.String]?
-  public var collectingData: Swift.Bool?
-}
-extension ConsentCore.SDK : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension ConsentCore.SDK : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: ConsentCore.SDK, b: ConsentCore.SDK) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension ConsentCore.SDK : Swift.Sendable {
-}
-extension ConsentCore.HttpMethod : Swift.Equatable {}
-extension ConsentCore.HttpMethod : Swift.Hashable {}
-extension ConsentCore.HttpMethod : Swift.RawRepresentable {}
 extension ConsentCore.PurposeStatus : Swift.Equatable {}
 extension ConsentCore.PurposeStatus : Swift.Hashable {}
 extension ConsentCore.PurposeStatus : Swift.RawRepresentable {}
+extension ConsentCore.ConsentStatus : Swift.RawRepresentable {}
 extension ConsentCore.BannerPosition : Swift.Equatable {}
 extension ConsentCore.BannerPosition : Swift.Hashable {}
 extension ConsentCore.BannerPosition : Swift.RawRepresentable {}
@@ -500,7 +498,9 @@ extension ConsentCore.LogLevel : Swift.RawRepresentable {}
 extension ConsentCore.Mode : Swift.Equatable {}
 extension ConsentCore.Mode : Swift.Hashable {}
 extension ConsentCore.Mode : Swift.RawRepresentable {}
-extension ConsentCore.ConsentStatus : Swift.RawRepresentable {}
+extension ConsentCore.HttpMethod : Swift.Equatable {}
+extension ConsentCore.HttpMethod : Swift.Hashable {}
+extension ConsentCore.HttpMethod : Swift.RawRepresentable {}
 extension ConsentCore.ComplianceType : Swift.Equatable {}
 extension ConsentCore.ComplianceType : Swift.Hashable {}
 extension ConsentCore.ComplianceType : Swift.RawRepresentable {}
