@@ -9299,6 +9299,226 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "releaseDate",
+            "printedName": "releaseDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ConsentCore3SDKV11releaseDateSSSgvp",
+            "mangledName": "$s11ConsentCore3SDKV11releaseDateSSSgvp",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore3SDKV11releaseDateSSSgvg",
+                "mangledName": "$s11ConsentCore3SDKV11releaseDateSSSgvg",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore3SDKV11releaseDateSSSgvs",
+                "mangledName": "$s11ConsentCore3SDKV11releaseDateSSSgvs",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore3SDKV11releaseDateSSSgvM",
+                "mangledName": "$s11ConsentCore3SDKV11releaseDateSSSgvM",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "license",
+            "printedName": "license",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ConsentCore3SDKV7licenseSSSgvp",
+            "mangledName": "$s11ConsentCore3SDKV7licenseSSSgvp",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore3SDKV7licenseSSSgvg",
+                "mangledName": "$s11ConsentCore3SDKV7licenseSSSgvg",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore3SDKV7licenseSSSgvs",
+                "mangledName": "$s11ConsentCore3SDKV7licenseSSSgvs",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore3SDKV7licenseSSSgvM",
+                "mangledName": "$s11ConsentCore3SDKV7licenseSSSgvM",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -21559,128 +21779,156 @@
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 600,
       "length": 8,
       "value": "\"sdk_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 636,
       "length": 14,
       "value": "\"namespace_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 602,
+      "offset": 674,
       "length": 10,
       "value": "\"sdk_name\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 641,
+      "offset": 715,
       "length": 17,
       "value": "\"sdk_description\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 679,
+      "offset": 755,
       "length": 8,
       "value": "\"vendor\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 790,
       "length": 13,
       "value": "\"logo_base64\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 827,
       "length": 9,
       "value": "\"website\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 862,
       "length": 12,
       "value": "\"matched_by\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 905,
       "length": 17,
       "value": "\"collecting_data\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 950,
+      "length": 14,
+      "value": "\"release_date\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 9,
+      "value": "\"license\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
       "length": 8,
       "value": "\"sdk_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 636,
       "length": 14,
       "value": "\"namespace_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 602,
+      "offset": 674,
       "length": 10,
       "value": "\"sdk_name\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 641,
+      "offset": 715,
       "length": 17,
       "value": "\"sdk_description\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 679,
+      "offset": 755,
       "length": 8,
       "value": "\"vendor\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 790,
       "length": 13,
       "value": "\"logo_base64\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 827,
       "length": 9,
       "value": "\"website\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 862,
       "length": 12,
       "value": "\"matched_by\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 905,
       "length": 17,
       "value": "\"collecting_data\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 950,
+      "length": 14,
+      "value": "\"release_date\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 9,
+      "value": "\"license\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/SDKLogger\/LogLevel.swift",
@@ -22462,98 +22710,119 @@
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2404,
+      "offset": 2390,
+      "length": 9,
+      "value": "\"License\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2431,
+      "length": 16,
+      "value": "\"Developers URL\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2477,
+      "length": 14,
+      "value": "\"Release Date\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2530,
       "length": 18,
       "value": "\"CONSENT_EXPLICIT\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2456,
+      "offset": 2582,
       "length": 18,
       "value": "\"CONSENT_IMPLICIT\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2509,
+      "offset": 2635,
       "length": 19,
       "value": "\"CONSENT_NO_ACTION\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2576,
+      "offset": 2702,
       "length": 27,
       "value": "\"HAS_SHOWN_SETTINGS_PROMPT\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 2768,
       "length": 23,
       "value": "\"PENDING_PURPOSES_LIST\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2707,
+      "offset": 2833,
       "length": 26,
       "value": "\"PENDING_PERMISSIONS_LIST\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2770,
+      "offset": 2896,
       "length": 15,
       "value": "\"SAVED_PREFILL\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2832,
+      "offset": 2958,
       "length": 25,
       "value": "\"CURRENT_COMPLIANCE_TYPE\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2907,
+      "offset": 3033,
       "length": 28,
       "value": "\"IS_SETTINGS_PROMPT_ENABLED\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2968,
+      "offset": 3094,
       "length": 16,
       "value": "\"IS_ATT_ENABLED\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3022,
+      "offset": 3148,
       "length": 16,
       "value": "\"LAST_MODE_USED\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3075,
+      "offset": 3201,
       "length": 15,
       "value": "\"curr_location\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3126,
+      "offset": 3252,
       "length": 18,
       "value": "\"curr_countryCode\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3186,
+      "offset": 3312,
       "length": 25,
       "value": "\"curr_location_timestamp\""
     },
