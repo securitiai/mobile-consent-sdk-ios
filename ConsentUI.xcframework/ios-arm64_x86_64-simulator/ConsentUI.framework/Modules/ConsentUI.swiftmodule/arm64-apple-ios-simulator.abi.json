@@ -26023,56 +26023,63 @@
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "StringLiteral",
-      "offset": 1936,
+      "offset": 1881,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1961,
+      "offset": 1906,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1995,
+      "offset": 1940,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "StringLiteral",
-      "offset": 2391,
+      "offset": 2336,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2451,
+      "offset": 2396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2495,
+      "offset": 2440,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2535,
+      "offset": 2480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3135,
+      "offset": 3080,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Buttons\/BaseButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3081,
       "length": 5,
       "value": "false"
     },
@@ -26225,8 +26232,15 @@
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Texts\/SecuritiText.swift",
+      "kind": "BooleanLiteral",
+      "offset": 790,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Texts\/SecuritiText.swift",
       "kind": "StringLiteral",
-      "offset": 1683,
+      "offset": 1743,
       "length": 13,
       "value": "\"Sample Text\""
     },
