@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8haNs7qNvzurVbgu6sUWl10fuFk=
+		bmCNAWx6xErOAzLu3r+y6XHeWn0=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		l0UwSIGSs7m5NgMq2jN9RSJ9q4M=
+		4XfPcGj0xMOD1ZcJXOWg4hVs5VU=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		l0UwSIGSs7m5NgMq2jN9RSJ9q4M=
+		4XfPcGj0xMOD1ZcJXOWg4hVs5VU=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0Tx3Z48YfLg4NeHDCDb4M/HoObE=
+		fOhJq9GL5l2GgIuGE9wDmmHAop0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,14 +54,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DfiA6b+jsOiUevDDM0f0ycVJRBwJpX+m5pjsPcBBn0=
+			EEil6JOnay+ji/J8rRIN8TyryJBrenPMTwPApsN9vik=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nlIbent6EF0M7/ofYipjf/SGzAx4uwY/Osq9RZBx+CU=
+			YbrGQ2T/ZKTYmRSllnSJ0luKxvkGnWf9HwE68Q8vMSY=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -75,14 +75,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nlIbent6EF0M7/ofYipjf/SGzAx4uwY/Osq9RZBx+CU=
+			YbrGQ2T/ZKTYmRSllnSJ0luKxvkGnWf9HwE68Q8vMSY=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8jaxszPyRoTnqM6Uw99CAhZN2yaJanO2reGlUHfBlMU=
+			3mLXVPchHzlCNnQasSDpjwvQDFqNIj7TA4zo/iD1Ikg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
