@@ -76,7 +76,7 @@ public enum PurposeStatus : Swift.String, Swift.Codable {
   }
 }
 public struct PostConsentsRequest {
-  public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, implicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentCore.PurposeConsent], permissions: [ConsentCore.PermissionConsent], testingMode: Swift.Bool, adId: Swift.String = "")
+  public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, implicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentCore.PurposeConsent], permissions: [ConsentCore.PermissionConsent], testingMode: Swift.Bool, adId: Swift.String = "", bannerInfo: Swift.String)
 }
 extension ConsentCore.PostConsentsRequest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
