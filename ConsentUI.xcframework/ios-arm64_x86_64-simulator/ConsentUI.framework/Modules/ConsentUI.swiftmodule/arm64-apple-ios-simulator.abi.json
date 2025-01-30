@@ -5805,6 +5805,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5914,6 +5924,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConsentUI"
       },
       {
         "kind": "Import",
@@ -20152,6 +20169,43 @@
           },
           {
             "kind": "Var",
+            "name": "cdnNotModified",
+            "printedName": "cdnNotModified",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentUI.NetworkError.Type) -> ConsentUI.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "ConsentUI.NetworkError",
+                    "usr": "s:9ConsentUI12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConsentUI.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "ConsentUI.NetworkError",
+                        "usr": "s:9ConsentUI12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ConsentUI12NetworkErrorO14cdnNotModifiedyA2CmF",
+            "mangledName": "$s9ConsentUI12NetworkErrorO14cdnNotModifiedyA2CmF",
+            "moduleName": "ConsentUI"
+          },
+          {
+            "kind": "Var",
             "name": "errorDescription",
             "printedName": "errorDescription",
             "children": [
@@ -23661,11 +23715,25 @@
       "value": "\"Ephemeral\""
     },
     {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Common\/ToastView\/ToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 85,
+      "value": "\"All Non-Essential SDK Purposes are not allowed; Essential purposes remain selected.\""
+    },
+    {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/Views\/PurposesListView.swift",
       "kind": "Array",
-      "offset": 317,
+      "offset": 330,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/Views\/PurposesListView.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Texts\/RichText\/RichTextView.swift",
@@ -23859,161 +23927,161 @@
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 757,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1277,
+      "offset": 1283,
       "length": 10,
       "value": "\"app_uuid\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1349,
+      "offset": 1355,
       "length": 18,
       "value": "\"implicit_consent\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 1426,
       "length": 18,
       "value": "\"purpose_consents\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1497,
       "length": 14,
       "value": "\"is_test_mode\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1526,
+      "offset": 1532,
       "length": 7,
       "value": "\"ad_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 1566,
       "length": 13,
       "value": "\"banner_info\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1600,
+      "offset": 1606,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1277,
+      "offset": 1283,
       "length": 10,
       "value": "\"app_uuid\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1349,
+      "offset": 1355,
       "length": 18,
       "value": "\"implicit_consent\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 1426,
       "length": 18,
       "value": "\"purpose_consents\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1497,
       "length": 14,
       "value": "\"is_test_mode\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1526,
+      "offset": 1532,
       "length": 7,
       "value": "\"ad_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 1566,
       "length": 13,
       "value": "\"banner_info\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1600,
+      "offset": 1606,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 1863,
       "length": 12,
       "value": "\"purpose_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1899,
+      "offset": 1905,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1966,
+      "offset": 1972,
       "length": 14,
       "value": "\"is_essential\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 1863,
       "length": 12,
       "value": "\"purpose_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1899,
+      "offset": 1905,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1966,
+      "offset": 1972,
       "length": 14,
       "value": "\"is_essential\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2258,
+      "offset": 2264,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2258,
+      "offset": 2264,
       "length": 16,
       "value": "\"consent_status\""
     },
@@ -25861,121 +25929,198 @@
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2390,
+      "offset": 2395,
+      "length": 14,
+      "value": "\"Company Logo\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2434,
       "length": 9,
       "value": "\"License\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2431,
+      "offset": 2475,
       "length": 16,
       "value": "\"Developers URL\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2477,
+      "offset": 2521,
       "length": 14,
       "value": "\"Release Date\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2530,
+      "offset": 2574,
       "length": 18,
       "value": "\"CONSENT_EXPLICIT\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2582,
+      "offset": 2626,
       "length": 18,
       "value": "\"CONSENT_IMPLICIT\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2635,
+      "offset": 2679,
       "length": 19,
       "value": "\"CONSENT_NO_ACTION\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2702,
+      "offset": 2746,
       "length": 27,
       "value": "\"HAS_SHOWN_SETTINGS_PROMPT\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2768,
+      "offset": 2812,
       "length": 23,
       "value": "\"PENDING_PURPOSES_LIST\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2833,
+      "offset": 2877,
       "length": 26,
       "value": "\"PENDING_PERMISSIONS_LIST\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2896,
+      "offset": 2940,
       "length": 15,
       "value": "\"SAVED_PREFILL\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2958,
+      "offset": 3002,
       "length": 25,
       "value": "\"CURRENT_COMPLIANCE_TYPE\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3033,
+      "offset": 3077,
       "length": 28,
       "value": "\"IS_SETTINGS_PROMPT_ENABLED\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3094,
+      "offset": 3138,
       "length": 16,
       "value": "\"IS_ATT_ENABLED\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3148,
+      "offset": 3192,
       "length": 16,
       "value": "\"LAST_MODE_USED\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3201,
+      "offset": 3245,
       "length": 15,
       "value": "\"curr_location\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3252,
+      "offset": 3296,
       "length": 18,
       "value": "\"curr_countryCode\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3312,
+      "offset": 3356,
       "length": 25,
       "value": "\"curr_location_timestamp\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3404,
+      "length": 6,
+      "value": "\"Etag\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3444,
+      "length": 15,
+      "value": "\"If-None-Match\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3513,
+      "length": 42,
+      "value": "\"All applicable SDK Purposes are allowed.\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3606,
+      "length": 85,
+      "value": "\"All Non-Essential SDK Purposes are not allowed, Essential purposes remain selected.\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3717,
+      "length": 9,
+      "value": "\"Refresh\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3756,
+      "length": 13,
+      "value": "\"Go Backward\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3798,
+      "length": 12,
+      "value": "\"Go Forward\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3836,
+      "length": 9,
+      "value": "\"Dismiss\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3871,
+      "length": 9,
+      "value": "\"Details\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3904,
+      "length": 7,
+      "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/ConsentSDK+CDNUtils.swift",
@@ -26106,7 +26251,7 @@
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3080,
+      "offset": 3164,
       "length": 5,
       "value": "false"
     },

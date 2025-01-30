@@ -204,6 +204,7 @@ public enum PermissionStatus : Swift.String, Swift.Codable, Swift.Hashable, Swif
   }
 }
 
+
 public struct PostConsentsRequest {
   public init(uuid: Swift.String, appUUID: Swift.String, device: Swift.String, implicitConsent: Swift.Bool, version: Swift.Int, purposeConsents: [ConsentUI.PurposeConsent], permissions: [ConsentUI.PermissionConsent], testingMode: Swift.Bool, adId: Swift.String = "", bannerInfo: Swift.String)
 }
@@ -440,6 +441,7 @@ public enum NetworkError : Swift.Error, @unchecked Swift.Sendable {
   case invalidStatusCode(code: Swift.Int)
   case decodingError(message: Swift.String)
   case invalidURL(message: Swift.String)
+  case cdnNotModified
 }
 extension ConsentUI.NetworkError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {

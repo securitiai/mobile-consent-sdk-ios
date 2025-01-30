@@ -307,6 +307,7 @@ public enum NetworkError : Swift.Error, @unchecked Swift.Sendable {
   case invalidStatusCode(code: Swift.Int)
   case decodingError(message: Swift.String)
   case invalidURL(message: Swift.String)
+  case cdnNotModified
 }
 extension ConsentCore.NetworkError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
