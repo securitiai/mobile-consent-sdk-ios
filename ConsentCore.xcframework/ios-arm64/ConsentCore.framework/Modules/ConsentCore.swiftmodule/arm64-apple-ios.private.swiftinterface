@@ -6,20 +6,16 @@ import AdSupport
 import AppTrackingTransparency
 @_exported import ConsentCore
 import Contacts
-import CoreBluetooth
 import CoreLocation
 import CoreMotion
 import CoreNFC
 import EventKit
 import Foundation
-import HealthKit
-import HomeKit
 import Intents
 import LocalAuthentication
 import MediaPlayer
 import Network
 import Photos
-import Speech
 import Swift
 import UIKit
 import UserNotifications
