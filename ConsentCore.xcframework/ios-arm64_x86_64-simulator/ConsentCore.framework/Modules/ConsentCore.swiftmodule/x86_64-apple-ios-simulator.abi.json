@@ -284,13 +284,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
-        "declKind": "Import",
-        "moduleName": "ConsentCore"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2391,13 +2384,6 @@
       },
       {
         "kind": "Import",
-        "name": "Speech",
-        "printedName": "Speech",
-        "declKind": "Import",
-        "moduleName": "ConsentCore"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4429,13 +4415,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "ConsentCore"
       },
       {
         "kind": "Import",
@@ -15408,13 +15387,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "HomeKit",
-        "printedName": "HomeKit",
-        "declKind": "Import",
-        "moduleName": "ConsentCore"
       },
       {
         "kind": "Import",

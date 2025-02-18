@@ -7,28 +7,23 @@ import AppTrackingTransparency
 import Combine
 @_exported import ConsentUI
 import Contacts
-import CoreBluetooth
 import CoreLocation
 import CoreMotion
 import CoreNFC
 import DeveloperToolsSupport
 import EventKit
 import Foundation
-import HealthKit
-import HomeKit
 import Intents
 import LocalAuthentication
 import MediaPlayer
 import Network
 import Photos
-import Speech
 import Swift
 import SwiftUI
 import UIKit
 import UserNotifications
 import WebKit
 import _Concurrency
-import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct SettingsPrompt {

@@ -5608,13 +5608,6 @@
       },
       {
         "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5632,13 +5625,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "HomeKit",
-        "printedName": "HomeKit",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
       },
       {
         "kind": "Import",
@@ -5700,13 +5686,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Speech",
-        "printedName": "Speech",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
       },
       {
         "kind": "Import",
@@ -5978,13 +5957,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
       },
       {
         "kind": "Import",
@@ -22061,149 +22033,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "MediaPlayer",
-        "printedName": "MediaPlayer",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "Speech",
-        "printedName": "Speech",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "EventKit",
-        "printedName": "EventKit",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "Contacts",
-        "printedName": "Contacts",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "LocalAuthentication",
-        "printedName": "LocalAuthentication",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMotion",
-        "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "Intents",
-        "printedName": "Intents",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "HomeKit",
-        "printedName": "HomeKit",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreNFC",
-        "printedName": "CoreNFC",
-        "declKind": "Import",
-        "moduleName": "ConsentUI"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ConsentUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -25332,6 +25161,13 @@
       "value": "\"hide_details\""
     },
     {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Images\/SecuritiLogoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Common\/WebView\/WebViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 245,
@@ -25344,6 +25180,20 @@
       "offset": 289,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Cards\/SecuritiPurposeCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 426,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Buttons\/SecuritiBackButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Protocols.swift",
@@ -26137,13 +25987,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PermissionsViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 11531,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Extensions\/Padding+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
@@ -26187,71 +26030,78 @@
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 273,
+      "offset": 319,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 299,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
-      "kind": "StringLiteral",
-      "offset": 1881,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1906,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1940,
+      "offset": 345,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "StringLiteral",
-      "offset": 2336,
+      "offset": 1981,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2396,
+      "offset": 2006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2440,
+      "offset": 2040,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
+      "kind": "StringLiteral",
+      "offset": 2436,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2496,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2480,
+      "offset": 2540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3164,
+      "offset": 2580,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3264,
       "length": 5,
       "value": "false"
     },
@@ -26341,36 +26191,43 @@
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "StringLiteral",
-      "offset": 570,
+      "offset": 612,
       "length": 14,
       "value": "\"SDK Purposes\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 652,
       "length": 13,
       "value": "\"Permissions\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "StringLiteral",
-      "offset": 570,
+      "offset": 612,
       "length": 14,
       "value": "\"SDK Purposes\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 652,
       "length": 13,
       "value": "\"Permissions\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 851,
+      "offset": 893,
       "length": 5,
       "value": "false"
     },
