@@ -23014,16 +23014,23 @@
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/LocaleUtils.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 271,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/LocaleUtils.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 347,
       "length": 3,
       "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/LocaleUtils.swift",
+      "kind": "Dictionary",
+      "offset": 381,
+      "length": 18,
+      "value": "[(\"mni\", \"mni-mtei\")]"
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SettingsPrompt.swift",
@@ -25189,6 +25196,20 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/EndPoints\/GetCDNEndPoint.swift",
+      "kind": "BooleanLiteral",
+      "offset": 384,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/EndPoints\/GetCDNEndPoint.swift",
+      "kind": "BooleanLiteral",
+      "offset": 571,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Buttons\/SecuritiBackButton.swift",
       "kind": "IntegerLiteral",
       "offset": 776,
@@ -25973,9 +25994,23 @@
       "value": "\"Close\""
     },
     {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3948,
+      "length": 14,
+      "value": "\"LANGUAGECODE\""
+    },
+    {
+      "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/ConsentSDK+NetworkAPIs.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1774,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/ConsentSDK+CDNUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 3479,
+      "offset": 3585,
       "length": 5,
       "value": "false"
     },
