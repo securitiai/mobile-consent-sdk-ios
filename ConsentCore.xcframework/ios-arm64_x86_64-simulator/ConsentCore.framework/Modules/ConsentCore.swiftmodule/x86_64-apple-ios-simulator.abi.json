@@ -2655,6 +2655,51 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(purposeID:consentStatus:timestamp:isEssential:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PurposeConsent",
+                "printedName": "ConsentCore.PurposeConsent",
+                "usr": "s:11ConsentCore07PurposeA0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentStatus",
+                "printedName": "ConsentCore.ConsentStatus",
+                "usr": "s:11ConsentCore0A6StatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ConsentCore07PurposeA0V9purposeID13consentStatus9timestamp11isEssentialACSi_AA0aG0Os5Int64VSbtcfc",
+            "mangledName": "$s11ConsentCore07PurposeA0V9purposeID13consentStatus9timestamp11isEssentialACSi_AA0aG0Os5Int64VSbtcfc",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -2860,6 +2905,45 @@
         "name": "PermissionConsent",
         "printedName": "PermissionConsent",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(permission:consentStatus:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionConsent",
+                "printedName": "ConsentCore.PermissionConsent",
+                "usr": "s:11ConsentCore010PermissionA0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrivaciKey",
+                "printedName": "ConsentCore.PrivaciKey",
+                "usr": "s:11ConsentCore10PrivaciKeyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentStatus",
+                "printedName": "ConsentCore.ConsentStatus",
+                "usr": "s:11ConsentCore0A6StatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ConsentCore010PermissionA0V10permission13consentStatus9timestampAcA10PrivaciKeyO_AA0aF0Os5Int64Vtcfc",
+            "mangledName": "$s11ConsentCore010PermissionA0V10permission13consentStatus9timestampAcA10PrivaciKeyO_AA0aF0Os5Int64Vtcfc",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -21732,28 +21816,28 @@
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 2127,
       "length": 12,
       "value": "\"purpose_id\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1905,
+      "offset": 2169,
       "length": 16,
       "value": "\"consent_status\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1972,
+      "offset": 2236,
       "length": 14,
       "value": "\"is_essential\""
     },
     {
       "filePath": "\/Users\/surendra.ponnapalli\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2264,
+      "offset": 2744,
       "length": 16,
       "value": "\"consent_status\""
     },

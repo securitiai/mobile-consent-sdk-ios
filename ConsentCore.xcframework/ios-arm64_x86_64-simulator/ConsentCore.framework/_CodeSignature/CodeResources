@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bt4JyQ8O0oHnqNB2I9hHyLY91c8=
+		P8C+EVaVMhl2GpBU0uC1IQRXG7c=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5R6FhVGbu9zAP0CIYu1cgutWAtI=
+		kD+zJErcUlABJHZ0cVD5IHVOOxg=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		y6EWZS/bSqKmsBPh5m31gGSAjRI=
+		HZNKCpimTs/SJpPAIBR5Bhe9Gfo=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		y6EWZS/bSqKmsBPh5m31gGSAjRI=
+		HZNKCpimTs/SJpPAIBR5Bhe9Gfo=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zdjcF9heer6RHwMkjS9ZOOCwbH4=
+		RCGtvXdXsYd2q2ElKnFeDjB0ETE=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5R6FhVGbu9zAP0CIYu1cgutWAtI=
+		kD+zJErcUlABJHZ0cVD5IHVOOxg=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0c1Zxe8PWaJYqxnUeFJBID3R/P8=
+		98h+BGWH2voLIt48GvdGHGtINFU=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0c1Zxe8PWaJYqxnUeFJBID3R/P8=
+		98h+BGWH2voLIt48GvdGHGtINFU=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pLNLgpCeRbxbY0Md3ix3dumIqOI=
+		2eq9PVI9DEo8nB8MWFi0oBLtjhU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,14 +74,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q2CQEWN5V7D7xPrbqR3RBtz21hQF2iOC27Ud8FvopSQ=
+			+CsBGEoUHamHRyjRiT2533oAveXopjbQio1B8++1pwE=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tG2PIdnMlE/6ZhvW4Julc5zK51/H3Eb9EX6Oc0DKSVs=
+			yc8Beg8s9AAN4wt1VGdqwLbpkM4zkH0Lz0OQRpkUIW0=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -95,28 +95,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tG2PIdnMlE/6ZhvW4Julc5zK51/H3Eb9EX6Oc0DKSVs=
+			yc8Beg8s9AAN4wt1VGdqwLbpkM4zkH0Lz0OQRpkUIW0=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+onhe0rmrw1SdnjDlOOjoEhoT/zGkIz03+LLHgxl22U=
+			7Zqfu4ups6cVG/C+PrYEzGPAN/R0M9lhZdkbB3jPzLs=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q2CQEWN5V7D7xPrbqR3RBtz21hQF2iOC27Ud8FvopSQ=
+			+CsBGEoUHamHRyjRiT2533oAveXopjbQio1B8++1pwE=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYJlaIQUJBdqU+FuQX5Xwt+z4AGIos7JStswMgez2PM=
+			qxYHQ1NUxRQ8KBZjs8t3YjEKI9TZb/7BzPtHnt3B+iQ=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -130,14 +130,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYJlaIQUJBdqU+FuQX5Xwt+z4AGIos7JStswMgez2PM=
+			qxYHQ1NUxRQ8KBZjs8t3YjEKI9TZb/7BzPtHnt3B+iQ=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cbLbaCeivmbnS/fORiKtIQCRs4ySZTaLWoLHalmIW+s=
+			+ssUmj6oiPrOBqFer4vbFaKVaQrBo9BjplDPbFxtO+g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

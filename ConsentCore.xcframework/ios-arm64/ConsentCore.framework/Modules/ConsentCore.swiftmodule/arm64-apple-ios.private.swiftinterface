@@ -79,6 +79,7 @@ extension ConsentCore.PostConsentsRequest : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct PurposeConsent : Swift.Codable, Swift.Equatable {
+  public init(purposeID: Swift.Int, consentStatus: ConsentCore.ConsentStatus, timestamp: Swift.Int64, isEssential: Swift.Bool)
   public static func == (a: ConsentCore.PurposeConsent, b: ConsentCore.PurposeConsent) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -90,6 +91,7 @@ extension ConsentCore.PurposeConsent : Swift.Hashable {
   }
 }
 public struct PermissionConsent : Swift.Codable {
+  public init(permission: ConsentCore.PrivaciKey, consentStatus: ConsentCore.ConsentStatus, timestamp: Swift.Int64)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
