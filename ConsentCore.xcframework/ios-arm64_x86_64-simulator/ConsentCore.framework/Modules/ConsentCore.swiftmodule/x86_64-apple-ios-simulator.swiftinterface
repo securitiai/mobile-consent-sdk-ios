@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ConsentCore
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ConsentCore
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -55,8 +56,8 @@ extension ConsentCore.AppPermission : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.AppPermission : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.AppPermission, b: ConsentCore.AppPermission) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -118,8 +119,8 @@ extension ConsentCore.SettingsPrompt : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.SettingsPrompt : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.SettingsPrompt, b: ConsentCore.SettingsPrompt) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -143,8 +144,8 @@ extension ConsentCore.ATTConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.ATTConfig : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.ATTConfig, b: ConsentCore.ATTConfig) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -185,8 +186,8 @@ public enum PrivaciKey : Swift.Hashable, Swift.Codable, Swift.Equatable {
   public var rawValue: Swift.String {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.PrivaciKey, b: ConsentCore.PrivaciKey) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -208,8 +209,8 @@ extension ConsentCore.Purpose : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.Purpose : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.Purpose, b: ConsentCore.Purpose) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -236,8 +237,8 @@ extension ConsentCore.SDK : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.SDK : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.SDK, b: ConsentCore.SDK) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -291,8 +292,8 @@ extension ConsentCore.MainConfiguration : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.MainConfiguration : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.MainConfiguration, b: ConsentCore.MainConfiguration) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -407,8 +408,8 @@ public struct ConsentBannerConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.ConsentBannerConfig : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.ConsentBannerConfig, b: ConsentCore.ConsentBannerConfig) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -450,8 +451,8 @@ public struct BannerConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.BannerConfig : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.BannerConfig, b: ConsentCore.BannerConfig) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -470,8 +471,8 @@ public struct CustomColors : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.CustomColors : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.CustomColors, b: ConsentCore.CustomColors) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
