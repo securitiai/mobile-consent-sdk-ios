@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'ConsentUI'
-    s.version      = '1.132.0'
+    s.version      = '1.133.0'
     s.summary      = 'Securiti\'s mobile SDK provides a CMP with all ConsentCore features plus a pre-built UI for banners and preference centers.'
     s.description  = <<-DESC
     Collect and manage user privacy preferences with built-in UI for consent banners, ensuring compliance with privacy regulations.
