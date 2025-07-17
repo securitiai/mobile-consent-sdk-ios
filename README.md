@@ -1,24 +1,27 @@
-# Securiti, Inc. Mobile App Consent SDK (iOS)
+# Securiti Mobile Consent SDK - iOS
 
-The **Securiti Mobile App Consent SDK** provides a comprehensive Consent Management Platform (CMP) that integrates seamlessly into iOS applications, ensuring compliance with global privacy regulations.
+This repository contains binary releases of Securiti's Mobile Consent SDK for iOS.
 
-## Offerings
+## Frameworks
 
-1. `ConsentCore`: Lightweight SDK for core consent functionalities without a UI, ideal for custom implementations.
-2. `ConsentUI`: A pre-built UI for consent banners and preference centers, managed via an admin portal.
+- **ConsentCore**: Lightweight SDK for core consent functionalities without a UI
+- **ConsentUI**: A pre-built UI for consent banners and preference centers
 
 ## Installation
-Access the full guide and technical documentation by subscribing to Securiti's **Mobile App Consent Management (MACM)** module. 
 
-## Usage
-1. **Configure SDK**: Set up the SDK using the `setupSDK` method.
-2. **Integrate Consents**: Collect and manage user consents with minimal effort.
-   
-## Documentation
-(Subscription required) For complete technical documentation and API references, visit the help center of Securiti's **Mobile App Consent Management (MACM)** module. For assistance, contact support@securiti.ai.
+### Swift Package Manager
+Add to your Package.swift:
+```swift
+.package(url: "https://github.com/securitiai/mobile-consent-sdk-ios", from: "1.135.0-1rc")
+```
 
-## License
-This SDK is licensed under [MIT](https://github.com/securitiai/mobile-consent-sdk-ios/blob/main/LICENSE).
+### CocoaPods
+```ruby
+pod 'ConsentCore', '~> 1.135.0-1rc'
+pod 'ConsentUI', '~> 1.135.0-1rc'
+```
 
-## Support
-For any issues or questions, contact support@securiti.ai.
+### Carthage
+```
+github "securitiai/mobile-consent-sdk-ios" ~> 1.135.0-1rc
+```

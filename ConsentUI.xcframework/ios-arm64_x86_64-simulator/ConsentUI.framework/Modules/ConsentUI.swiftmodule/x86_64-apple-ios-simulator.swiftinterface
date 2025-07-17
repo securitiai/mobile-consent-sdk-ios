@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ConsentUI
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ConsentUI
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -39,8 +38,8 @@ extension ConsentUI.SettingsPrompt : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.SettingsPrompt : Swift.Hashable {
-  public static func == (a: ConsentUI.SettingsPrompt, b: ConsentUI.SettingsPrompt) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.SettingsPrompt, b: ConsentUI.SettingsPrompt) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -67,8 +66,8 @@ extension ConsentUI.ATTConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.ATTConfig : Swift.Hashable {
-  public static func == (a: ConsentUI.ATTConfig, b: ConsentUI.ATTConfig) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.ATTConfig, b: ConsentUI.ATTConfig) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -109,8 +108,8 @@ public enum PrivaciKey : Swift.Hashable, Swift.Codable, Swift.Equatable {
   public var rawValue: Swift.String {
     get
   }
-  public static func == (a: ConsentUI.PrivaciKey, b: ConsentUI.PrivaciKey) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.PrivaciKey, b: ConsentUI.PrivaciKey) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -244,8 +243,8 @@ public struct ConsentBannerConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.ConsentBannerConfig : Swift.Hashable {
-  public static func == (a: ConsentUI.ConsentBannerConfig, b: ConsentUI.ConsentBannerConfig) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.ConsentBannerConfig, b: ConsentUI.ConsentBannerConfig) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -287,8 +286,8 @@ public struct BannerConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.BannerConfig : Swift.Hashable {
-  public static func == (a: ConsentUI.BannerConfig, b: ConsentUI.BannerConfig) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.BannerConfig, b: ConsentUI.BannerConfig) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -307,8 +306,8 @@ public struct CustomColors : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.CustomColors : Swift.Hashable {
-  public static func == (a: ConsentUI.CustomColors, b: ConsentUI.CustomColors) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.CustomColors, b: ConsentUI.CustomColors) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -331,8 +330,8 @@ extension ConsentUI.SDK : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.SDK : Swift.Hashable {
-  public static func == (a: ConsentUI.SDK, b: ConsentUI.SDK) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.SDK, b: ConsentUI.SDK) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -366,8 +365,8 @@ extension ConsentUI.MainConfiguration : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.MainConfiguration : Swift.Hashable {
-  public static func == (a: ConsentUI.MainConfiguration, b: ConsentUI.MainConfiguration) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.MainConfiguration, b: ConsentUI.MainConfiguration) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -388,8 +387,8 @@ extension ConsentUI.AppPermission : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.AppPermission : Swift.Hashable {
-  public static func == (a: ConsentUI.AppPermission, b: ConsentUI.AppPermission) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.AppPermission, b: ConsentUI.AppPermission) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -411,8 +410,8 @@ extension ConsentUI.Purpose : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentUI.Purpose : Swift.Hashable {
-  public static func == (a: ConsentUI.Purpose, b: ConsentUI.Purpose) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentUI.Purpose, b: ConsentUI.Purpose) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
