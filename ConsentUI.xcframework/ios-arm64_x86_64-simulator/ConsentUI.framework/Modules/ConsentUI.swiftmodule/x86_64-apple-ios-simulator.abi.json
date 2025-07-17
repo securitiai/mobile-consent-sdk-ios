@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "ConsentUI",
-    "printedName": "ConsentUI",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
     "children": [
       {
         "kind": "Import",
@@ -953,20 +953,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1271,22 +1257,6 @@
         "moduleName": "ConsentUI",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -1862,20 +1832,6 @@
           "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -3244,20 +3200,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -3543,20 +3485,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "RawRepresentable",
             "printedName": "RawRepresentable",
             "children": [
@@ -3663,20 +3591,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3972,20 +3886,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4279,20 +4179,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4490,20 +4376,6 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4761,23 +4633,7 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -4997,20 +4853,6 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5651,20 +5493,6 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "RawRepresentable",
@@ -6337,20 +6165,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6576,20 +6390,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6722,20 +6522,6 @@
           "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -6985,20 +6771,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7153,22 +6925,6 @@
         "moduleName": "ConsentUI",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -7356,20 +7112,6 @@
           "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -11741,20 +11483,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12697,20 +12425,6 @@
           "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -14236,20 +13950,6 @@
           "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -16846,20 +16546,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -18139,20 +17825,6 @@
           "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -19654,20 +19326,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -20109,20 +19767,6 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -20727,20 +20371,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -20990,20 +20620,6 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -21340,20 +20956,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -21612,20 +21214,6 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -22474,23 +22062,7 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -22971,23 +22543,7 @@
         "usr": "s:SE",
         "mangledName": "$sSE",
         "moduleName": "Swift",
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
+        "isExternal": true
       },
       {
         "kind": "TypeDecl",
@@ -23407,17 +22963,13 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI5ImageV",
         "mangledName": "$s7SwiftUI5ImageV",
-        "moduleName": "SwiftUICore",
+        "moduleName": "SwiftUI",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -23438,20 +22990,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -23495,6 +23033,12 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -23574,11 +23118,67 @@
       "value": "\"permissions\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SettingsPrompt.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 16,
+      "value": "\"prompt_heading\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SettingsPrompt.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 16,
+      "value": "\"prompt_message\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SettingsPrompt.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 22,
+      "value": "\"settings_button_text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SettingsPrompt.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 21,
+      "value": "\"not_now_button_text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SettingsPrompt.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 13,
+      "value": "\"permissions\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Fonts\/SecuritiFonts.swift",
       "kind": "BooleanLiteral",
       "offset": 168,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ATTConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 26,
+      "value": "\"show_info_on_pref_center\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ATTConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 13,
+      "value": "\"purpose_ids\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ATTConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 11,
+      "value": "\"info_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ATTConfig.swift",
@@ -23630,6 +23230,48 @@
       "value": "\"withdrawn\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 9,
+      "value": "\"granted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 10,
+      "value": "\"declined\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 16,
+      "value": "\"not_determined\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 11,
+      "value": "\"withdrawn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 10,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
@@ -23674,6 +23316,48 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/SDKLogger\/LogLevel.swift",
       "kind": "StringLiteral",
+      "offset": 153,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/SDKLogger\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/SDKLogger\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/SDKLogger\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/SDKLogger\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 7,
+      "value": "\"draft\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/SDKLogger\/LogLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 6,
+      "value": "\"live\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/SDKLogger\/LogLevel.swift",
+      "kind": "StringLiteral",
       "offset": 286,
       "length": 7,
       "value": "\"draft\""
@@ -23712,6 +23396,118 @@
       "offset": 243,
       "length": 16,
       "value": "\"Not Determined\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Purposes\/PurposeStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 12,
+      "value": "\"Authorized\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Purposes\/PurposeStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 8,
+      "value": "\"Denied\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Purposes\/PurposeStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 16,
+      "value": "\"Not Determined\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 12,
+      "value": "\"Authorized\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 19,
+      "value": "\"Always Authorized\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 24,
+      "value": "\"Authorized When In Use\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 8,
+      "value": "\"Denied\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 12,
+      "value": "\"Restricted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 16,
+      "value": "\"Not Determined\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 13,
+      "value": "\"Provisional\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 9,
+      "value": "\"Limited\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 15,
+      "value": "\"Not Available\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 13,
+      "value": "\"Full Access\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 12,
+      "value": "\"Write Only\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 11,
+      "value": "\"Ephemeral\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PermissionStatus.swift",
@@ -23863,6 +23659,90 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
       "kind": "StringLiteral",
+      "offset": 764,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2148,
+      "length": 6,
+      "value": "\"City\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2180,
+      "length": 11,
+      "value": "\"Continent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2215,
+      "length": 9,
+      "value": "\"Country\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2255,
+      "length": 16,
+      "value": "\"CountryISOCode\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2296,
+      "length": 10,
+      "value": "\"Language\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2331,
+      "length": 10,
+      "value": "\"Location\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2375,
+      "length": 19,
+      "value": "\"RegisteredCountry\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 7,
+      "value": "\"State\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2452,
+      "length": 14,
+      "value": "\"StateISOCode\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Responses\/CurrentLocationResponse.swift",
+      "kind": "StringLiteral",
       "offset": 2148,
       "length": 6,
       "value": "\"City\""
@@ -23989,6 +23869,76 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
       "kind": "StringLiteral",
+      "offset": 1283,
+      "length": 10,
+      "value": "\"app_uuid\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1355,
+      "length": 18,
+      "value": "\"implicit_consent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1426,
+      "length": 18,
+      "value": "\"purpose_consents\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1497,
+      "length": 14,
+      "value": "\"is_test_mode\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1532,
+      "length": 7,
+      "value": "\"ad_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1566,
+      "length": 13,
+      "value": "\"banner_info\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2127,
+      "length": 12,
+      "value": "\"purpose_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 16,
+      "value": "\"consent_status\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 14,
+      "value": "\"is_essential\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
       "offset": 2127,
       "length": 12,
       "value": "\"purpose_id\""
@@ -24015,11 +23965,242 @@
       "value": "\"consent_status\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Requests\/PostConsentsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2744,
+      "length": 16,
+      "value": "\"consent_status\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 11,
       "value": "\"names_map\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 11,
+      "value": "\"names_map\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2128,
+      "length": 19,
+      "value": "\"hide_close_button\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2180,
+      "length": 20,
+      "value": "\"hide_accept_toggle\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2235,
+      "length": 23,
+      "value": "\"embed_dsr_portal_link\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2300,
+      "length": 31,
+      "value": "\"record_consent_upon_app_start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2380,
+      "length": 38,
+      "value": "\"hide_toggle_for_essential_categories\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2439,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2475,
+      "length": 17,
+      "value": "\"dsr_portal_link\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2523,
+      "length": 17,
+      "value": "\"compliance_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2579,
+      "length": 26,
+      "value": "\"banner_reappearance_time\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2639,
+      "length": 21,
+      "value": "\"privacy_notice_link\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2683,
+      "length": 8,
+      "value": "\"accept\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2714,
+      "length": 8,
+      "value": "\"reject\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2749,
+      "length": 13,
+      "value": "\"banner_text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2792,
+      "length": 16,
+      "value": "\"banner_heading\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2838,
+      "length": 17,
+      "value": "\"sdk_tab_heading\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2889,
+      "length": 21,
+      "value": "\"privacy_notice_text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2947,
+      "length": 24,
+      "value": "\"preference_center_link\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3009,
+      "length": 25,
+      "value": "\"permissions_tab_heading\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3073,
+      "length": 26,
+      "value": "\"permissions_tab_guidance\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3139,
+      "length": 27,
+      "value": "\"preference_center_heading\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3207,
+      "length": 28,
+      "value": "\"preference_center_guidance\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3277,
+      "length": 29,
+      "value": "\"permissions_tab_description\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3350,
+      "length": 31,
+      "value": "\"preference_center_description\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3423,
+      "length": 31,
+      "value": "\"show_powered_by_securiti_logo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3510,
+      "length": 53,
+      "value": "\"show_description_text_with_preference_center_toggle\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3592,
+      "length": 15,
+      "value": "\"palette_theme\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3638,
+      "length": 17,
+      "value": "\"banner_position\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3683,
+      "length": 14,
+      "value": "\"button_shape\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3725,
+      "length": 14,
+      "value": "\"company_logo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3774,
+      "length": 9,
+      "value": "\"palette\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3824,
+      "length": 29,
+      "value": "\"should_show_settings_prompt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
@@ -24295,6 +24476,139 @@
       "value": "\"preference_center_footer_selector\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 5392,
+      "length": 19,
+      "value": "\"button_background\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 5438,
+      "length": 13,
+      "value": "\"button_text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 5480,
+      "length": 15,
+      "value": "\"button_border\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 5528,
+      "length": 19,
+      "value": "\"banner_background\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 5574,
+      "length": 13,
+      "value": "\"banner_text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 5615,
+      "length": 14,
+      "value": "\"banner_links\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 5678,
+      "length": 37,
+      "value": "\"preference_center_footer_background\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 5762,
+      "length": 35,
+      "value": "\"preference_center_footer_selector\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 8,
+      "value": "\"sdk_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 636,
+      "length": 14,
+      "value": "\"namespace_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 10,
+      "value": "\"sdk_name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 17,
+      "value": "\"sdk_description\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 8,
+      "value": "\"vendor\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 13,
+      "value": "\"logo_base64\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 9,
+      "value": "\"website\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 12,
+      "value": "\"matched_by\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 17,
+      "value": "\"collecting_data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 950,
+      "length": 14,
+      "value": "\"release_date\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 9,
+      "value": "\"license\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
       "kind": "StringLiteral",
       "offset": 600,
@@ -24533,6 +24847,202 @@
       "value": "\"is_sp_enabled\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 14,
+      "value": "\"generated_on\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1139,
+      "length": 11,
+      "value": "\"tenant_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1173,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1204,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1268,
+      "length": 13,
+      "value": "\"logo_base64\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1301,
+      "length": 14,
+      "value": "\"x-auth-token\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 10,
+      "value": "\"purposes\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1412,
+      "length": 13,
+      "value": "\"permissions\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1452,
+      "length": 15,
+      "value": "\"banner_config\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1494,
+      "length": 6,
+      "value": "\"i18n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1527,
+      "length": 16,
+      "value": "\"is_att_enabled\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1567,
+      "length": 19,
+      "value": "\"att_or_gad_config\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 17,
+      "value": "\"settings_prompt\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1662,
+      "length": 20,
+      "value": "\"re_consent_enabled\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/MainConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1720,
+      "length": 15,
+      "value": "\"is_sp_enabled\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 15,
+      "value": "\"permission_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 7,
+      "value": "\"group\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 10,
+      "value": "\"group_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 16,
+      "value": "\"consent_status\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 10,
+      "value": "\"nameI18N\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/AppPermission.swift",
       "kind": "StringLiteral",
       "offset": 572,
@@ -24594,6 +25104,62 @@
       "offset": 484,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 12,
+      "value": "\"purpose_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 14,
+      "value": "\"purpose_name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 21,
+      "value": "\"purpose_description\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
+      "kind": "StringLiteral",
+      "offset": 774,
+      "length": 6,
+      "value": "\"sdks\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 16,
+      "value": "\"consent_status\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 17,
+      "value": "\"disable_opt_out\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 14,
+      "value": "\"opt_out_text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 14,
+      "value": "\"hide_details\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/Purpose.swift",
@@ -24722,6 +25288,34 @@
       "value": "\"PUT\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Protocols.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Protocols.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Protocols.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Params.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 7,
+      "value": "\"limit\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Params.swift",
       "kind": "StringLiteral",
       "offset": 155,
@@ -24755,6 +25349,48 @@
       "offset": 330,
       "length": 14,
       "value": "\"X-Auth-Token\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Params.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Params.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Params.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Params.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 14,
+      "value": "\"X-Auth-Token\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/BannerPosition.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 8,
+      "value": "\"bottom\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/BannerPosition.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 8,
+      "value": "\"center\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/BannerPosition.swift",
@@ -24804,6 +25440,62 @@
       "offset": 276,
       "length": 10,
       "value": "\"edgeless\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ButtonType.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 9,
+      "value": "\"rounded\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ButtonType.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 8,
+      "value": "\"square\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ButtonType.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 6,
+      "value": "\"pill\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ButtonType.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 10,
+      "value": "\"outlined\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ButtonType.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 10,
+      "value": "\"edgeless\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ComplianceType.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 13,
+      "value": "\"notice-only\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ComplianceType.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 8,
+      "value": "\"opt-in\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ComplianceType.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 9,
+      "value": "\"opt-out\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/ComplianceType.swift",
@@ -25609,6 +26301,20 @@
       "offset": 311,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
+      "kind": "StringLiteral",
+      "offset": 612,
+      "length": 14,
+      "value": "\"SDK Purposes\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 13,
+      "value": "\"Permissions\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
