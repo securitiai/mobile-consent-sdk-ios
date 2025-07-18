@@ -12,16 +12,16 @@ This repository contains binary releases of Securiti's Mobile Consent SDK for iO
 ### Swift Package Manager
 Add to your Package.swift:
 ```swift
-.package(url: "https://github.com/securitiai/mobile-consent-sdk-ios", from: "1.135.0-3rc")
+.package(url: "https://github.com/securitiai/mobile-consent-sdk-ios", from: "1.135.0-4rc")
 ```
 
 ### CocoaPods
 ```ruby
-pod 'ConsentCore', '~> 1.135.0-3rc'
-pod 'ConsentUI', '~> 1.135.0-3rc'
+pod 'ConsentCore', '~> 1.135.0-4rc'
+pod 'ConsentUI', '~> 1.135.0-4rc'
 ```
 
 ### Carthage
 ```
-github "securitiai/mobile-consent-sdk-ios" ~> 1.135.0-3rc
+github "securitiai/mobile-consent-sdk-ios" ~> 1.135.0-4rc
 ```

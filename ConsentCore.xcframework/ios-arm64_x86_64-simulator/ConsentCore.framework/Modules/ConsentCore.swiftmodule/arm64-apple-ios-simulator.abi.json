@@ -23089,7 +23089,42 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4193,
+      "offset": 4184,
+      "length": 11,
+      "value": "\"Collapsed\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 4222,
+      "length": 10,
+      "value": "\"Expanded\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 4259,
+      "length": 10,
+      "value": "\"Collapse\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 4294,
+      "length": 8,
+      "value": "\"Expand\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 4334,
+      "length": 15,
+      "value": "\"Double tap to\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 4382,
       "length": 14,
       "value": "\"LANGUAGECODE\""
     },
