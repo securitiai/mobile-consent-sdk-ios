@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'ConsentCore'
-                                                                                    s.version      = '1.135.0-18rc'
+                                                                                        s.version      = '1.135.0-19rc'
     s.summary      = 'Securiti\'s mobile SDK provides a lightweight CMP without a UI, ideal for custom interfaces or size constraints.'
     s.description  = <<-DESC
 Manage user privacy preferences with core functionalities, suited for custom UIs or limited app sizes, maintaining compliance.
