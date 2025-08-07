@@ -1,110 +1,24 @@
-# Securiti Mobile Consent SDK - iOS
+# Securiti, Inc. Mobile App Consent SDK (iOS)
 
-This repository contains binary releases of Securiti's Mobile Consent SDK for iOS.
+The **Securiti Mobile App Consent SDK** provides a comprehensive Consent Management Platform (CMP) that integrates seamlessly into iOS applications, ensuring compliance with global privacy regulations.
 
-## Frameworks
+## Offerings
 
-- **ConsentCore**: Lightweight SDK for core consent functionalities without a UI
-- **ConsentUI**: A pre-built UI for consent banners and preference centers
+1. `ConsentCore`: Lightweight SDK for core consent functionalities without a UI, ideal for custom implementations.
+2. `ConsentUI`: A pre-built UI for consent banners and preference centers, managed via an admin portal.
 
 ## Installation
+Access the full guide and technical documentation by subscribing to Securiti's **Mobile App Consent Management (MACM)** module. 
 
-### Swift Package Manager
-Add to your Package.swift:
+## Usage
+1. **Configure SDK**: Set up the SDK using the `setupSDK` method.
+2. **Integrate Consents**: Collect and manage user consents with minimal effort.
+   
+## Documentation
+(Subscription required) For complete technical documentation and API references, visit the help center of Securiti's **Mobile App Consent Management (MACM)** module. For assistance, contact support@securiti.ai.
 
-Welcome to Swift!
+## License
+This SDK is licensed under [MIT](https://github.com/securitiai/mobile-consent-sdk-ios/blob/main/LICENSE).
 
-Subcommands:
-
-  swift build      Build Swift packages
-  swift package    Create and work on packages
-  swift run        Run a program from a package
-  swift test       Run package tests
-  swift repl       Experiment with Swift code interactively
-
-  Use `swift --version` for Swift version information.
-
-  Use `swift --help` for descriptions of available options and flags.
-
-  Use `swift help <subcommand>` for more information about a subcommand.
-
-### CocoaPods
-[!] Unknown command: `ConsentCore,`
-Did you mean: cache?
-
-Usage:
-
-    $ pod COMMAND
-
-      CocoaPods, the Cocoa library package manager.
-
-Commands:
-
-    + cache         Manipulate the CocoaPods cache
-    + deintegrate   Deintegrate CocoaPods from your project
-    + env           Display pod environment
-    + init          Generate a Podfile for the current directory
-    + install       Install project dependencies according to versions from a
-                    Podfile.lock
-    + ipc           Inter-process communication
-    + lib           Develop pods
-    + list          List pods
-    + outdated      Show outdated project dependencies
-    + plugins       Show available CocoaPods plugins
-    + repo          Manage spec-repositories
-    + search        Search for pods
-    + setup         Set up the CocoaPods environment
-    + spec          Manage pod specs
-    + trunk         Interact with the CocoaPods API (e.g. publishing new specs)
-    + try           Try a Pod!
-    + update        Update outdated project dependencies and create new Podfile.lock
-
-Options:
-
-    --allow-root    Allows CocoaPods to run as root
-    --silent        Show nothing
-    --version       Show the version of the tool
-    --verbose       Show more debugging information
-    --no-ansi       Show output without ANSI codes
-    --help          Show help banner of specified command
-[!] Unknown command: `ConsentUI,`
-Did you mean: setup?
-
-Usage:
-
-    $ pod COMMAND
-
-      CocoaPods, the Cocoa library package manager.
-
-Commands:
-
-    + cache         Manipulate the CocoaPods cache
-    + deintegrate   Deintegrate CocoaPods from your project
-    + env           Display pod environment
-    + init          Generate a Podfile for the current directory
-    + install       Install project dependencies according to versions from a
-                    Podfile.lock
-    + ipc           Inter-process communication
-    + lib           Develop pods
-    + list          List pods
-    + outdated      Show outdated project dependencies
-    + plugins       Show available CocoaPods plugins
-    + repo          Manage spec-repositories
-    + search        Search for pods
-    + setup         Set up the CocoaPods environment
-    + spec          Manage pod specs
-    + trunk         Interact with the CocoaPods API (e.g. publishing new specs)
-    + try           Try a Pod!
-    + update        Update outdated project dependencies and create new Podfile.lock
-
-Options:
-
-    --allow-root    Allows CocoaPods to run as root
-    --silent        Show nothing
-    --version       Show the version of the tool
-    --verbose       Show more debugging information
-    --no-ansi       Show output without ANSI codes
-    --help          Show help banner of specified command
-
-### Carthage
-
+## Support
+For any issues or questions, contact support@securiti.ai.
