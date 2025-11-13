@@ -102,5 +102,6 @@
   "1.139.0-9rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.139.0-9rc/ConsentCore_with_symbols.xcframework.zip",
   "1.139.0-10rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.139.0-10rc/ConsentCore_with_symbols.xcframework.zip",
   "1.139.0": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.139.0/ConsentCore_with_symbols.xcframework.zip",
-  "1.140.0-1rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.140.0-1rc/ConsentCore_with_symbols.xcframework.zip"
+  "1.140.0-1rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.140.0-1rc/ConsentCore_with_symbols.xcframework.zip",
+  "1.140.0-2rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.140.0-2rc/ConsentCore_with_symbols.xcframework.zip"
 }
