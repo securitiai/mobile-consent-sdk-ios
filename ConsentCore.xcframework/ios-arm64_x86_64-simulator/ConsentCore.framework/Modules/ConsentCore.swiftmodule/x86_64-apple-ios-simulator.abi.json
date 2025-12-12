@@ -839,7 +839,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[ConsentCore.GoogleConsentType : ConsentCore.Purpose]",
+                "printedName": "[ConsentCore.GoogleConsentType : ConsentCore.ConsentStatus]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -849,17 +849,17 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Purpose",
-                    "printedName": "ConsentCore.Purpose",
-                    "usr": "s:11ConsentCore7PurposeV"
+                    "name": "ConsentStatus",
+                    "printedName": "ConsentCore.ConsentStatus",
+                    "usr": "s:11ConsentCore0A6StatusO"
                   }
                 ],
                 "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11ConsentCore0A3SDKC14getGCMConsentsSDyAA06GoogleA4TypeOAA7PurposeVGyYaF",
-            "mangledName": "$s11ConsentCore0A3SDKC14getGCMConsentsSDyAA06GoogleA4TypeOAA7PurposeVGyYaF",
+            "usr": "s:11ConsentCore0A3SDKC14getGCMConsentsSDyAA06GoogleA4TypeOAA0A6StatusOGyYaF",
+            "mangledName": "$s11ConsentCore0A3SDKC14getGCMConsentsSDyAA06GoogleA4TypeOAA0A6StatusOGyYaF",
             "moduleName": "ConsentCore",
             "declAttributes": [
               "AccessControl",

@@ -568,7 +568,7 @@ extension ConsentUI.ConsentSDK {
   public func getSettingsPrompt() async -> ConsentUI.SettingsPrompt?
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func getGCMConsents() async -> [ConsentUI.GoogleConsentType : ConsentUI.Purpose]
+  public func getGCMConsents() async -> [ConsentUI.GoogleConsentType : ConsentUI.ConsentStatus]
   #endif
 }
 extension ConsentUI.ConsentSDK {

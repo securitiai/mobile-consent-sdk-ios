@@ -348,7 +348,7 @@ extension ConsentCore.ConsentSDK {
   public func getSettingsPrompt() async -> ConsentCore.SettingsPrompt?
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func getGCMConsents() async -> [ConsentCore.GoogleConsentType : ConsentCore.Purpose]
+  public func getGCMConsents() async -> [ConsentCore.GoogleConsentType : ConsentCore.ConsentStatus]
   #endif
 }
 public enum HttpMethod : Swift.String {

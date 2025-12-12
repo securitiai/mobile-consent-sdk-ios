@@ -24049,7 +24049,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[ConsentUI.GoogleConsentType : ConsentUI.Purpose]",
+                "printedName": "[ConsentUI.GoogleConsentType : ConsentUI.ConsentStatus]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24059,17 +24059,17 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Purpose",
-                    "printedName": "ConsentUI.Purpose",
-                    "usr": "s:9ConsentUI7PurposeV"
+                    "name": "ConsentStatus",
+                    "printedName": "ConsentUI.ConsentStatus",
+                    "usr": "s:9ConsentUI0A6StatusO"
                   }
                 ],
                 "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9ConsentUI0A3SDKC14getGCMConsentsSDyAA06GoogleA4TypeOAA7PurposeVGyYaF",
-            "mangledName": "$s9ConsentUI0A3SDKC14getGCMConsentsSDyAA06GoogleA4TypeOAA7PurposeVGyYaF",
+            "usr": "s:9ConsentUI0A3SDKC14getGCMConsentsSDyAA06GoogleA4TypeOAA0A6StatusOGyYaF",
+            "mangledName": "$s9ConsentUI0A3SDKC14getGCMConsentsSDyAA06GoogleA4TypeOAA0A6StatusOGyYaF",
             "moduleName": "ConsentUI",
             "declAttributes": [
               "AccessControl",
