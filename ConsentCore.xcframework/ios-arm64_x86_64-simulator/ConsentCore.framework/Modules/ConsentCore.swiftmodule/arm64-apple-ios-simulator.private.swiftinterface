@@ -526,10 +526,10 @@ public struct CustomColors : Swift.Codable {
   public var bannerLinks: Swift.String
   public var preferenceCenterFooterBackground: Swift.String
   public var preferenceCenterFooterSelector: Swift.String
-  public var togglePrimarycolor: Swift.String
-  public var toggleSecondarycolor: Swift.String
-  public var purposeDisclaimerTextColor: Swift.String
-  public var purposeDisclaimerBackgroundColor: Swift.String
+  public var togglePrimarycolor: Swift.String?
+  public var toggleSecondarycolor: Swift.String?
+  public var purposeDisclaimerTextColor: Swift.String?
+  public var purposeDisclaimerBackgroundColor: Swift.String?
   public init(buttonBackground: Swift.String, buttonText: Swift.String, buttonBorder: Swift.String, bannerBackground: Swift.String, bannerText: Swift.String, bannerLinks: Swift.String, preferenceCenterFooterBackground: Swift.String, preferenceCenterFooterSelector: Swift.String, togglePrimarycolor: Swift.String, toggleSecondarycolor: Swift.String, purposeDisclaimerTextColor: Swift.String, purposeDisclaimerBackgroundColor: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

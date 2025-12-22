@@ -13825,16 +13825,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9ConsentUI12CustomColorsV18togglePrimarycolorSSvp",
-            "mangledName": "$s9ConsentUI12CustomColorsV18togglePrimarycolorSSvp",
+            "usr": "s:9ConsentUI12CustomColorsV18togglePrimarycolorSSSgvp",
+            "mangledName": "$s9ConsentUI12CustomColorsV18togglePrimarycolorSSSgvp",
             "moduleName": "ConsentUI",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -13847,14 +13856,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV18togglePrimarycolorSSvg",
-                "mangledName": "$s9ConsentUI12CustomColorsV18togglePrimarycolorSSvg",
+                "usr": "s:9ConsentUI12CustomColorsV18togglePrimarycolorSSSgvg",
+                "mangledName": "$s9ConsentUI12CustomColorsV18togglePrimarycolorSSSgvg",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13871,14 +13888,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV18togglePrimarycolorSSvs",
-                "mangledName": "$s9ConsentUI12CustomColorsV18togglePrimarycolorSSvs",
+                "usr": "s:9ConsentUI12CustomColorsV18togglePrimarycolorSSSgvs",
+                "mangledName": "$s9ConsentUI12CustomColorsV18togglePrimarycolorSSSgvs",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "set"
@@ -13895,8 +13920,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV18togglePrimarycolorSSvM",
-                "mangledName": "$s9ConsentUI12CustomColorsV18togglePrimarycolorSSvM",
+                "usr": "s:9ConsentUI12CustomColorsV18togglePrimarycolorSSSgvM",
+                "mangledName": "$s9ConsentUI12CustomColorsV18togglePrimarycolorSSSgvM",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13910,16 +13935,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9ConsentUI12CustomColorsV20toggleSecondarycolorSSvp",
-            "mangledName": "$s9ConsentUI12CustomColorsV20toggleSecondarycolorSSvp",
+            "usr": "s:9ConsentUI12CustomColorsV20toggleSecondarycolorSSSgvp",
+            "mangledName": "$s9ConsentUI12CustomColorsV20toggleSecondarycolorSSSgvp",
             "moduleName": "ConsentUI",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -13932,14 +13966,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV20toggleSecondarycolorSSvg",
-                "mangledName": "$s9ConsentUI12CustomColorsV20toggleSecondarycolorSSvg",
+                "usr": "s:9ConsentUI12CustomColorsV20toggleSecondarycolorSSSgvg",
+                "mangledName": "$s9ConsentUI12CustomColorsV20toggleSecondarycolorSSSgvg",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13956,14 +13998,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV20toggleSecondarycolorSSvs",
-                "mangledName": "$s9ConsentUI12CustomColorsV20toggleSecondarycolorSSvs",
+                "usr": "s:9ConsentUI12CustomColorsV20toggleSecondarycolorSSSgvs",
+                "mangledName": "$s9ConsentUI12CustomColorsV20toggleSecondarycolorSSSgvs",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "set"
@@ -13980,8 +14030,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV20toggleSecondarycolorSSvM",
-                "mangledName": "$s9ConsentUI12CustomColorsV20toggleSecondarycolorSSvM",
+                "usr": "s:9ConsentUI12CustomColorsV20toggleSecondarycolorSSSgvM",
+                "mangledName": "$s9ConsentUI12CustomColorsV20toggleSecondarycolorSSSgvM",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13995,16 +14045,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSvp",
-            "mangledName": "$s9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSvp",
+            "usr": "s:9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSSgvp",
+            "mangledName": "$s9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSSgvp",
             "moduleName": "ConsentUI",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -14017,14 +14076,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSvg",
-                "mangledName": "$s9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSvg",
+                "usr": "s:9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSSgvg",
+                "mangledName": "$s9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSSgvg",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "get"
@@ -14041,14 +14108,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSvs",
-                "mangledName": "$s9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSvs",
+                "usr": "s:9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSSgvs",
+                "mangledName": "$s9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSSgvs",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "set"
@@ -14065,8 +14140,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSvM",
-                "mangledName": "$s9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSvM",
+                "usr": "s:9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSSgvM",
+                "mangledName": "$s9ConsentUI12CustomColorsV26purposeDisclaimerTextColorSSSgvM",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14080,16 +14155,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSvp",
-            "mangledName": "$s9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSvp",
+            "usr": "s:9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSSgvp",
+            "mangledName": "$s9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSSgvp",
             "moduleName": "ConsentUI",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -14102,14 +14186,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSvg",
-                "mangledName": "$s9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSvg",
+                "usr": "s:9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSSgvg",
+                "mangledName": "$s9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSSgvg",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "get"
@@ -14126,14 +14218,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSvs",
-                "mangledName": "$s9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSvs",
+                "usr": "s:9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSSgvs",
+                "mangledName": "$s9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSSgvs",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "set"
@@ -14150,8 +14250,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSvM",
-                "mangledName": "$s9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSvM",
+                "usr": "s:9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSSgvM",
+                "mangledName": "$s9ConsentUI12CustomColorsV32purposeDisclaimerBackgroundColorSSSgvM",
                 "moduleName": "ConsentUI",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -26863,168 +26963,168 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6186,
+      "offset": 6664,
       "length": 19,
       "value": "\"button_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6232,
+      "offset": 6710,
       "length": 13,
       "value": "\"button_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6274,
+      "offset": 6752,
       "length": 15,
       "value": "\"button_border\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6322,
+      "offset": 6800,
       "length": 19,
       "value": "\"banner_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6368,
+      "offset": 6846,
       "length": 13,
       "value": "\"banner_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6409,
+      "offset": 6887,
       "length": 14,
       "value": "\"banner_links\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6472,
+      "offset": 6950,
       "length": 37,
       "value": "\"preference_center_footer_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6556,
+      "offset": 7034,
       "length": 35,
       "value": "\"preference_center_footer_selector\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6626,
+      "offset": 7104,
       "length": 16,
       "value": "\"toggle_primary\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6679,
+      "offset": 7157,
       "length": 18,
       "value": "\"toggle_secondary\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6740,
+      "offset": 7218,
       "length": 25,
       "value": "\"purpose_disclaimer_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6814,
+      "offset": 7292,
       "length": 31,
       "value": "\"purpose_disclaimer_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6186,
+      "offset": 6664,
       "length": 19,
       "value": "\"button_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6232,
+      "offset": 6710,
       "length": 13,
       "value": "\"button_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6274,
+      "offset": 6752,
       "length": 15,
       "value": "\"button_border\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6322,
+      "offset": 6800,
       "length": 19,
       "value": "\"banner_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6368,
+      "offset": 6846,
       "length": 13,
       "value": "\"banner_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6409,
+      "offset": 6887,
       "length": 14,
       "value": "\"banner_links\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6472,
+      "offset": 6950,
       "length": 37,
       "value": "\"preference_center_footer_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6556,
+      "offset": 7034,
       "length": 35,
       "value": "\"preference_center_footer_selector\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6626,
+      "offset": 7104,
       "length": 16,
       "value": "\"toggle_primary\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6679,
+      "offset": 7157,
       "length": 18,
       "value": "\"toggle_secondary\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6740,
+      "offset": 7218,
       "length": 25,
       "value": "\"purpose_disclaimer_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentBannerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6814,
+      "offset": 7292,
       "length": 31,
       "value": "\"purpose_disclaimer_background\""
     },
