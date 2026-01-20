@@ -285,8 +285,6 @@ public struct MainConfiguration {
   public var settingPrompt: ConsentCore.SettingsPrompt?
   public var reConsentEnabled: Swift.Bool?
   public var isSettingsPromptEnabled: Swift.Bool?
-  public var isGcmEnabled: Swift.Bool?
-  public var gcmConfig: ConsentCore.GcmConfig?
 }
 extension ConsentCore.MainConfiguration : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -338,17 +336,11 @@ extension ConsentCore.ConsentSDK {
   #if compiler(>=5.3) && $AsyncAwait
   public func getBannerConfig(_ configuration: ConsentCore.MainConfiguration? = nil) async -> ConsentCore.BannerConfig?
   #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getGCMConfig() async -> ConsentCore.GcmConfig?
-  #endif
   public func removeConsents()
   public func getConsent(privaciKey: ConsentCore.PrivaciKey) -> ConsentCore.ConsentStatus
   public func getConsent(purposeId: Swift.Int) -> ConsentCore.ConsentStatus
   #if compiler(>=5.3) && $AsyncAwait
   public func getSettingsPrompt() async -> ConsentCore.SettingsPrompt?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getGCMConsents() async -> [ConsentCore.GoogleConsentType : ConsentCore.ConsentStatus]
   #endif
 }
 public enum HttpMethod : Swift.String {
@@ -370,49 +362,6 @@ public enum ComplianceType : Swift.String, Swift.Codable {
   case optOut
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct GcmConfig {
-  public var showGcmDescription: Swift.Bool?
-  public var gcmDescription: [Swift.String : Swift.String]?
-  public var defaultMapping: ConsentCore.DefaultMapping?
-  public var regionOverrides: [Swift.String : ConsentCore.DefaultMapping]?
-}
-extension ConsentCore.GcmConfig : Swift.Codable, Swift.Equatable, Swift.Hashable {
-  public static func == (a: ConsentCore.GcmConfig, b: ConsentCore.GcmConfig) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct DefaultMapping : Swift.Codable, Swift.Equatable, Swift.Hashable {
-  public let analyticsStorage: [Swift.Int]?
-  public let adStorage: [Swift.Int]?
-  public let adUserData: [Swift.Int]?
-  public let adPersonalization: [Swift.Int]?
-  public static func == (a: ConsentCore.DefaultMapping, b: ConsentCore.DefaultMapping) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum GoogleConsentType : Swift.String, Swift.Codable, Swift.Hashable, Swift.Equatable, Swift.CaseIterable {
-  case analyticsStorage
-  case adStorage
-  case adUserData
-  case adPersonalization
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [ConsentCore.GoogleConsentType]
-  public typealias RawValue = Swift.String
-  public static var allCases: [ConsentCore.GoogleConsentType] {
-    get
-  }
   public var rawValue: Swift.String {
     get
   }
@@ -526,11 +475,7 @@ public struct CustomColors : Swift.Codable {
   public var bannerLinks: Swift.String
   public var preferenceCenterFooterBackground: Swift.String
   public var preferenceCenterFooterSelector: Swift.String
-  public var togglePrimarycolor: Swift.String?
-  public var toggleSecondarycolor: Swift.String?
-  public var purposeDisclaimerTextColor: Swift.String?
-  public var purposeDisclaimerBackgroundColor: Swift.String?
-  public init(buttonBackground: Swift.String, buttonText: Swift.String, buttonBorder: Swift.String, bannerBackground: Swift.String, bannerText: Swift.String, bannerLinks: Swift.String, preferenceCenterFooterBackground: Swift.String, preferenceCenterFooterSelector: Swift.String, togglePrimarycolor: Swift.String, toggleSecondarycolor: Swift.String, purposeDisclaimerTextColor: Swift.String, purposeDisclaimerBackgroundColor: Swift.String)
+  public init(buttonBackground: Swift.String, buttonText: Swift.String, buttonBorder: Swift.String, bannerBackground: Swift.String, bannerText: Swift.String, bannerLinks: Swift.String, preferenceCenterFooterBackground: Swift.String, preferenceCenterFooterSelector: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -560,7 +505,6 @@ extension ConsentCore.HttpMethod : Swift.RawRepresentable {}
 extension ConsentCore.ComplianceType : Swift.Equatable {}
 extension ConsentCore.ComplianceType : Swift.Hashable {}
 extension ConsentCore.ComplianceType : Swift.RawRepresentable {}
-extension ConsentCore.GoogleConsentType : Swift.RawRepresentable {}
 extension ConsentCore.ButtonShape : Swift.Equatable {}
 extension ConsentCore.ButtonShape : Swift.Hashable {}
 extension ConsentCore.ButtonShape : Swift.RawRepresentable {}

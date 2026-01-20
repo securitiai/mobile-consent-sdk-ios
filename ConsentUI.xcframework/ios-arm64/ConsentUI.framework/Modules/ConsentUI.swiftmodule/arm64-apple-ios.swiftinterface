@@ -140,49 +140,6 @@ public enum ConsentStatus : Swift.String, Swift.Codable, Swift.Hashable, Swift.E
     get
   }
 }
-public struct GcmConfig {
-  public var showGcmDescription: Swift.Bool?
-  public var gcmDescription: [Swift.String : Swift.String]?
-  public var defaultMapping: ConsentUI.DefaultMapping?
-  public var regionOverrides: [Swift.String : ConsentUI.DefaultMapping]?
-}
-extension ConsentUI.GcmConfig : Swift.Codable, Swift.Equatable, Swift.Hashable {
-  public static func == (a: ConsentUI.GcmConfig, b: ConsentUI.GcmConfig) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct DefaultMapping : Swift.Codable, Swift.Equatable, Swift.Hashable {
-  public let analyticsStorage: [Swift.Int]?
-  public let adStorage: [Swift.Int]?
-  public let adUserData: [Swift.Int]?
-  public let adPersonalization: [Swift.Int]?
-  public static func == (a: ConsentUI.DefaultMapping, b: ConsentUI.DefaultMapping) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum GoogleConsentType : Swift.String, Swift.Codable, Swift.Hashable, Swift.Equatable, Swift.CaseIterable {
-  case analyticsStorage
-  case adStorage
-  case adUserData
-  case adPersonalization
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [ConsentUI.GoogleConsentType]
-  public typealias RawValue = Swift.String
-  public static var allCases: [ConsentUI.GoogleConsentType] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public enum LogLevel : Swift.String {
   case debug
   case info
@@ -344,11 +301,7 @@ public struct CustomColors : Swift.Codable {
   public var bannerLinks: Swift.String
   public var preferenceCenterFooterBackground: Swift.String
   public var preferenceCenterFooterSelector: Swift.String
-  public var togglePrimarycolor: Swift.String?
-  public var toggleSecondarycolor: Swift.String?
-  public var purposeDisclaimerTextColor: Swift.String?
-  public var purposeDisclaimerBackgroundColor: Swift.String?
-  public init(buttonBackground: Swift.String, buttonText: Swift.String, buttonBorder: Swift.String, bannerBackground: Swift.String, bannerText: Swift.String, bannerLinks: Swift.String, preferenceCenterFooterBackground: Swift.String, preferenceCenterFooterSelector: Swift.String, togglePrimarycolor: Swift.String, toggleSecondarycolor: Swift.String, purposeDisclaimerTextColor: Swift.String, purposeDisclaimerBackgroundColor: Swift.String)
+  public init(buttonBackground: Swift.String, buttonText: Swift.String, buttonBorder: Swift.String, bannerBackground: Swift.String, bannerText: Swift.String, bannerLinks: Swift.String, preferenceCenterFooterBackground: Swift.String, preferenceCenterFooterSelector: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -406,8 +359,6 @@ public struct MainConfiguration {
   public var settingPrompt: ConsentUI.SettingsPrompt?
   public var reConsentEnabled: Swift.Bool?
   public var isSettingsPromptEnabled: Swift.Bool?
-  public var isGcmEnabled: Swift.Bool?
-  public var gcmConfig: ConsentUI.GcmConfig?
 }
 extension ConsentUI.MainConfiguration : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -558,17 +509,11 @@ extension ConsentUI.ConsentSDK {
   #if compiler(>=5.3) && $AsyncAwait
   public func getBannerConfig(_ configuration: ConsentUI.MainConfiguration? = nil) async -> ConsentUI.BannerConfig?
   #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getGCMConfig() async -> ConsentUI.GcmConfig?
-  #endif
   public func removeConsents()
   public func getConsent(privaciKey: ConsentUI.PrivaciKey) -> ConsentUI.ConsentStatus
   public func getConsent(purposeId: Swift.Int) -> ConsentUI.ConsentStatus
   #if compiler(>=5.3) && $AsyncAwait
   public func getSettingsPrompt() async -> ConsentUI.SettingsPrompt?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getGCMConsents() async -> [ConsentUI.GoogleConsentType : ConsentUI.ConsentStatus]
   #endif
 }
 extension ConsentUI.ConsentSDK {
@@ -614,7 +559,6 @@ extension ConsentUI.ConsentStatus : Swift.RawRepresentable {}
 extension ConsentUI.SDKStatus : Swift.Equatable {}
 extension ConsentUI.SDKStatus : Swift.Hashable {}
 extension ConsentUI.SDKStatus : Swift.RawRepresentable {}
-extension ConsentUI.GoogleConsentType : Swift.RawRepresentable {}
 extension ConsentUI.LogLevel : Swift.Equatable {}
 extension ConsentUI.LogLevel : Swift.Hashable {}
 extension ConsentUI.LogLevel : Swift.RawRepresentable {}
