@@ -25456,246 +25456,260 @@
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 2526,
-      "length": 16,
-      "value": "\"Developers URL\""
+      "length": 15,
+      "value": "\"Developer URL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2572,
+      "offset": 2571,
       "length": 14,
       "value": "\"Release Date\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2625,
+      "offset": 2624,
       "length": 18,
       "value": "\"CONSENT_EXPLICIT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2677,
+      "offset": 2676,
       "length": 18,
       "value": "\"CONSENT_IMPLICIT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2730,
+      "offset": 2729,
       "length": 19,
       "value": "\"CONSENT_NO_ACTION\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2797,
+      "offset": 2796,
       "length": 27,
       "value": "\"HAS_SHOWN_SETTINGS_PROMPT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2863,
+      "offset": 2862,
       "length": 23,
       "value": "\"PENDING_PURPOSES_LIST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2928,
+      "offset": 2927,
       "length": 26,
       "value": "\"PENDING_PERMISSIONS_LIST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 2990,
       "length": 15,
       "value": "\"SAVED_PREFILL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3053,
+      "offset": 3052,
       "length": 25,
       "value": "\"CURRENT_COMPLIANCE_TYPE\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3128,
+      "offset": 3127,
       "length": 28,
       "value": "\"IS_SETTINGS_PROMPT_ENABLED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3189,
+      "offset": 3188,
       "length": 16,
       "value": "\"IS_ATT_ENABLED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3243,
+      "offset": 3242,
       "length": 16,
       "value": "\"LAST_MODE_USED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3296,
+      "offset": 3295,
       "length": 15,
       "value": "\"curr_location\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3347,
+      "offset": 3346,
       "length": 18,
       "value": "\"curr_countryCode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3407,
+      "offset": 3406,
       "length": 25,
       "value": "\"curr_location_timestamp\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3455,
+      "offset": 3454,
       "length": 6,
       "value": "\"Etag\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3495,
+      "offset": 3494,
       "length": 15,
       "value": "\"If-None-Match\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3564,
+      "offset": 3563,
       "length": 42,
       "value": "\"All applicable SDK Purposes are allowed.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3657,
+      "offset": 3656,
       "length": 85,
       "value": "\"All Non-Essential SDK Purposes are not allowed, Essential purposes remain selected.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3768,
+      "offset": 3767,
       "length": 9,
       "value": "\"Refresh\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3807,
+      "offset": 3806,
       "length": 13,
       "value": "\"Go Backward\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3849,
+      "offset": 3848,
       "length": 12,
       "value": "\"Go Forward\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3887,
+      "offset": 3886,
       "length": 9,
       "value": "\"Dismiss\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3922,
+      "offset": 3921,
       "length": 9,
       "value": "\"Details\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3955,
+      "offset": 3954,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3993,
+      "offset": 3992,
       "length": 24,
       "value": "\"Double tap to activate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4054,
+      "offset": 4053,
       "length": 32,
       "value": "\"Double tap to turn to accepted\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4124,
+      "offset": 4123,
       "length": 32,
       "value": "\"Double tap to turn to rejected\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4184,
+      "offset": 4183,
       "length": 11,
       "value": "\"Collapsed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4222,
+      "offset": 4221,
       "length": 10,
       "value": "\"Expanded\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4259,
+      "offset": 4258,
       "length": 10,
       "value": "\"Collapse\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4294,
+      "offset": 4293,
       "length": 8,
       "value": "\"Expand\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4334,
+      "offset": 4333,
       "length": 15,
       "value": "\"Double tap to\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4382,
+      "offset": 4381,
       "length": 14,
       "value": "\"LANGUAGECODE\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 4426,
+      "length": 39,
+      "value": "\"You cannot opt out from this Purpose.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 4498,
+      "length": 102,
+      "value": "\"You can't toggle this Purpose because it’s managed by Apple's App Tracking Transparency framework.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Params.swift",
