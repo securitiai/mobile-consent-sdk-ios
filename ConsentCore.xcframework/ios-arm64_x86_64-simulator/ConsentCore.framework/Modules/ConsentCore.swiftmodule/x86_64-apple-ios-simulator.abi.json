@@ -13225,6 +13225,204 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "WebViewConfig",
+        "printedName": "WebViewConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "allowedDomains",
+            "printedName": "allowedDomains",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ConsentCore13WebViewConfigV14allowedDomainsSaySSGvp",
+            "mangledName": "$s11ConsentCore13WebViewConfigV14allowedDomainsSaySSGvp",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore13WebViewConfigV14allowedDomainsSaySSGvg",
+                "mangledName": "$s11ConsentCore13WebViewConfigV14allowedDomainsSaySSGvg",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "blockedPageHTML",
+            "printedName": "blockedPageHTML",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ConsentCore13WebViewConfigV15blockedPageHTMLSSSgvp",
+            "mangledName": "$s11ConsentCore13WebViewConfigV15blockedPageHTMLSSSgvp",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore13WebViewConfigV15blockedPageHTMLSSSgvg",
+                "mangledName": "$s11ConsentCore13WebViewConfigV15blockedPageHTMLSSSgvg",
+                "moduleName": "ConsentCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(allowedDomains:blockedPageHTML:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewConfig",
+                "printedName": "ConsentCore.WebViewConfig",
+                "usr": "s:11ConsentCore13WebViewConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ConsentCore13WebViewConfigV14allowedDomains15blockedPageHTMLACSaySSG_SSSgtcfc",
+            "mangledName": "$s11ConsentCore13WebViewConfigV14allowedDomains15blockedPageHTMLACSaySSG_SSSgtcfc",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11ConsentCore13WebViewConfigV",
+        "mangledName": "$s11ConsentCore13WebViewConfigV",
+        "moduleName": "ConsentCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConsentCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "NetworkError",
         "printedName": "NetworkError",
         "children": [
@@ -17399,7 +17597,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(appUrl:cdnUrl:tenantId:appId:testingMode:logLevel:consentsCheckInterval:subjectId:languageCode:locationCode:)",
+            "printedName": "init(appUrl:cdnUrl:tenantId:appId:testingMode:logLevel:consentsCheckInterval:subjectId:languageCode:locationCode:webviewConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17493,11 +17691,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewConfig",
+                "printedName": "ConsentCore.WebViewConfig",
+                "hasDefaultArg": true,
+                "usr": "s:11ConsentCore13WebViewConfigV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11ConsentCore0A10SDKOptionsV6appUrl03cdnE08tenantId0dH011testingMode8logLevel21consentsCheckInterval07subjectH012languageCode08locationR0ACSS_S3SSbAA03LogL0OSiSSSgA2Ptcfc",
-            "mangledName": "$s11ConsentCore0A10SDKOptionsV6appUrl03cdnE08tenantId0dH011testingMode8logLevel21consentsCheckInterval07subjectH012languageCode08locationR0ACSS_S3SSbAA03LogL0OSiSSSgA2Ptcfc",
+            "usr": "s:11ConsentCore0A10SDKOptionsV6appUrl03cdnE08tenantId0dH011testingMode8logLevel21consentsCheckInterval07subjectH012languageCode08locationR013webviewConfigACSS_S3SSbAA03LogL0OSiSSSgA2qA07WebViewU0Vtcfc",
+            "mangledName": "$s11ConsentCore0A10SDKOptionsV6appUrl03cdnE08tenantId0dH011testingMode8logLevel21consentsCheckInterval07subjectH012languageCode08locationR013webviewConfigACSS_S3SSbAA03LogL0OSiSSSgA2qA07WebViewU0Vtcfc",
             "moduleName": "ConsentCore",
             "declAttributes": [
               "AccessControl"
@@ -24870,6 +25075,13 @@
       "offset": 381,
       "length": 18,
       "value": "[(\"mni\", \"mni-mtei\")]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/WebViewConfig.swift",
+      "kind": "Array",
+      "offset": 1139,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/ConsentSDK+InternalMethods.swift",

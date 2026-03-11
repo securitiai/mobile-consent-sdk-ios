@@ -278,7 +278,7 @@ public enum CardType {
   }
 }
 public struct ConsentSDKOptions {
-  public init(appUrl: Swift.String, cdnUrl: Swift.String, tenantId: Swift.String, appId: Swift.String, testingMode: Swift.Bool, logLevel: ConsentUI.LogLevel, consentsCheckInterval: Swift.Int, subjectId: Swift.String? = nil, languageCode: Swift.String? = nil, locationCode: Swift.String? = nil)
+  public init(appUrl: Swift.String, cdnUrl: Swift.String, tenantId: Swift.String, appId: Swift.String, testingMode: Swift.Bool, logLevel: ConsentUI.LogLevel, consentsCheckInterval: Swift.Int, subjectId: Swift.String? = nil, languageCode: Swift.String? = nil, locationCode: Swift.String? = nil, webviewConfig: ConsentUI.WebViewConfig = WebViewConfig())
 }
 
 public struct ConsentBannerConfig : Swift.Codable {
@@ -609,6 +609,11 @@ extension SwiftUI.Image {
     get
   }
   public static func createImage(_ value: Foundation.Data?, defaultImage: SwiftUI.Image) -> SwiftUI.Image
+}
+public struct WebViewConfig {
+  public let allowedDomains: [Swift.String]
+  public let blockedPageHTML: Swift.String?
+  public init(allowedDomains: [Swift.String] = [], blockedPageHTML: Swift.String? = nil)
 }
 extension ConsentUI.ConsentStatus : Swift.RawRepresentable {}
 extension ConsentUI.SDKStatus : Swift.Equatable {}

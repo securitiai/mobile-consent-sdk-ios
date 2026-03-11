@@ -299,6 +299,11 @@ extension ConsentCore.MainConfiguration : Swift.Hashable {
     get
   }
 }
+public struct WebViewConfig {
+  public let allowedDomains: [Swift.String]
+  public let blockedPageHTML: Swift.String?
+  public init(allowedDomains: [Swift.String] = [], blockedPageHTML: Swift.String? = nil)
+}
 public enum NetworkError : Swift.Error, @unchecked Swift.Sendable {
   case response([Swift.String : Any]?)
   case keyMapping
@@ -461,7 +466,7 @@ public enum PermissionStatus : Swift.String, Swift.Codable, Swift.Hashable, Swif
   }
 }
 public struct ConsentSDKOptions {
-  public init(appUrl: Swift.String, cdnUrl: Swift.String, tenantId: Swift.String, appId: Swift.String, testingMode: Swift.Bool, logLevel: ConsentCore.LogLevel, consentsCheckInterval: Swift.Int, subjectId: Swift.String? = nil, languageCode: Swift.String? = nil, locationCode: Swift.String? = nil)
+  public init(appUrl: Swift.String, cdnUrl: Swift.String, tenantId: Swift.String, appId: Swift.String, testingMode: Swift.Bool, logLevel: ConsentCore.LogLevel, consentsCheckInterval: Swift.Int, subjectId: Swift.String? = nil, languageCode: Swift.String? = nil, locationCode: Swift.String? = nil, webviewConfig: ConsentCore.WebViewConfig = WebViewConfig())
 }
 public struct ConsentBannerConfig : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
