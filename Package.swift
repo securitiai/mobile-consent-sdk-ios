@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "ConsentSDK",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v15),
+        .tvOS(.v17)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -16,6 +17,12 @@ let package = Package(
         .library(
             name: "ConsentUI",
             targets: ["ConsentUI"]),
+        .library(
+            name: "ConsentCore-tvOS",
+            targets: ["ConsentCore-tvOS"]),
+        .library(
+            name: "ConsentUI-tvOS",
+            targets: ["ConsentUI-tvOS"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,6 +34,14 @@ let package = Package(
         .binaryTarget(
             name: "ConsentUI",
             path: "./ConsentUI.xcframework"
+        ),
+        .binaryTarget(
+            name: "ConsentCore-tvOS",
+            path: "./ConsentCore-tvOS.xcframework"
+        ),
+        .binaryTarget(
+            name: "ConsentUI-tvOS",
+            path: "./ConsentUI-tvOS.xcframework"
         )
     ]
 )
