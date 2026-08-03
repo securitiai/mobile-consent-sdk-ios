@@ -6,8 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ConsentSDK",
     platforms: [
-        .iOS(.v15),
-        .tvOS(.v17)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -16,12 +15,6 @@ let package = Package(
         .library(
             name: "ConsentUI",
             targets: ["ConsentUI"]),
-        .library(
-            name: "ConsentCore-tvOS",
-            targets: ["ConsentCore-tvOS"]),
-        .library(
-            name: "ConsentUI-tvOS",
-            targets: ["ConsentUI-tvOS"]),
     ],
     targets: [
         .binaryTarget(
@@ -31,14 +24,6 @@ let package = Package(
         .binaryTarget(
             name: "ConsentUI",
             path: "./ConsentUI.xcframework"
-        ),
-        .binaryTarget(
-            name: "ConsentCore-tvOS",
-            path: "./ConsentCore-tvOS.xcframework"
-        ),
-        .binaryTarget(
-            name: "ConsentUI-tvOS",
-            path: "./ConsentUI-tvOS.xcframework"
         )
     ]
 )
