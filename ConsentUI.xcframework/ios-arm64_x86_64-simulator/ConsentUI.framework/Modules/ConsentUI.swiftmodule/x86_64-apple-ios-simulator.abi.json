@@ -26387,7 +26387,7 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Texts\/RichText\/RichTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
+      "offset": 8494,
       "length": 642,
       "value": "\"<p>This app uses strictly necessary <strong>Software Development Kits<\/strong> (SDKs) which are a set of tools used for the development of the app and ensuring <em>smooth and secure service delivery<\/em> for you. We also use optional SDKs that require permissions from you for accessing your data for <u>various purposes<\/u>. You can make granular choices below regarding which SDKs to allow. For more information on how we use, disclose and process your personal information, please visit our <strong><a href=\"https:\/\/www.google.com\" target=\"_blank\" class=\"\" rel=\"noopener noreferrer nofollow\"><u>Privacy Notice.<\/u><\/a><\/strong><\/p>\""
     },
@@ -28074,35 +28074,35 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Common\/WebView\/WebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 245,
+      "offset": 257,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Common\/WebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 301,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Common\/WebView\/WebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 340,
+      "offset": 352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Common\/WebView\/WebViewModel.swift",
       "kind": "Array",
-      "offset": 813,
+      "offset": 825,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Cards\/SecuritiPurposeCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 423,
+      "offset": 419,
       "length": 1,
       "value": "1"
     },
@@ -28123,14 +28123,14 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Buttons\/SecuritiBackButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 903,
+      "offset": 1017,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Buttons\/SecuritiBackButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1579,
+      "offset": 1693,
       "length": 1,
       "value": "1"
     },
@@ -29082,112 +29082,112 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 84,
+      "offset": 247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 117,
+      "offset": 280,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "IntegerLiteral",
-      "offset": 320,
+      "offset": 483,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 350,
+      "offset": 513,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 376,
+      "offset": 539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "StringLiteral",
-      "offset": 2399,
+      "offset": 2562,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2424,
+      "offset": 2587,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2458,
+      "offset": 2621,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3154,
+      "offset": 3317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3198,
+      "offset": 3361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3238,
+      "offset": 3401,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 4580,
+      "offset": 5439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Toggles\/SecuritiToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 4617,
+      "offset": 5476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Buttons\/BaseButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3393,
+      "offset": 5770,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Texts\/RichText\/RichText.swift",
       "kind": "Array",
-      "offset": 4093,
+      "offset": 4112,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Styles\/Texts\/RichText\/RichText.swift",
       "kind": "Array",
-      "offset": 4365,
+      "offset": 4384,
       "length": 2,
       "value": "[]"
     },
@@ -29320,7 +29320,7 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 893,
+      "offset": 920,
       "length": 5,
       "value": "false"
     },
@@ -29369,7 +29369,7 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/Common\/CustomDialog.swift",
       "kind": "BooleanLiteral",
-      "offset": 734,
+      "offset": 761,
       "length": 5,
       "value": "false"
     },

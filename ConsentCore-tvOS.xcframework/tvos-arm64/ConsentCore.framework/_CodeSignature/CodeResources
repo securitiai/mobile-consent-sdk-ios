@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y3E4hHQoiddDtJeY9cLYALmXoGc=
+		31WLpEog0G6RoscnytCEOyucM1w=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		zy4eOP9HCglZFHClN3bfpFr2PZ8=
+		7+e4ldV0b88i8Gzh8DPzyApTtxo=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
-		IWqe7QxqPfPnjxC2+9Z64yBWRg8=
+		6jogqhDmUvLHSqQL1uNYr8XOBOk=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<data>
-		S9kf3tj9yLjcJyPvEuaOZfqpbsc=
+		Zs24+GaK7/5nOolvgt2zU0U1mg4=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<data>
-		IWqe7QxqPfPnjxC2+9Z64yBWRg8=
+		6jogqhDmUvLHSqQL1uNYr8XOBOk=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		gXIkplO1vhvbK2aOQ+2p6NTIKpk=
+		W5BfWlVxPjcqOQAaX7TXKLLTpps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,35 +54,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VpfhtyNQ0ZFQW70m4SVriWcitSmxHe/3TtbGa9wi+Yc=
+			LEYuoQzE09rIUVtUhjRQ3AmWYGiPW7UNBFdbRfUWeCg=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+CqT0gwQxDzzeVVTbxduhb2RRL9o+mapj4OYRcdoJnw=
+			PDhaL6wL4EGf2fmDb6rSGdaJFM5zh0N8pI8jHCzDQVQ=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y7LsNanWeSsuXM4zzWzFmVepCepAv54a+I/IVCCrG80=
+			46qtl3TNmw8hTmgloZSQguCMYdU+jqYex1xOp/79/CA=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+CqT0gwQxDzzeVVTbxduhb2RRL9o+mapj4OYRcdoJnw=
+			PDhaL6wL4EGf2fmDb6rSGdaJFM5zh0N8pI8jHCzDQVQ=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xcAm97KYNyCY/RCwguNyYOm9lBfDiqpaaAXb9OPwTs0=
+			rfHTXiKZ8jO1Tpe7aaj+AHdgzsCthh2yIS4OX7J8BWE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
