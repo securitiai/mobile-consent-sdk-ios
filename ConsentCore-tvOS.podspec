@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'ConsentCore-tvOS'
-        s.version      = '1.150.0-1rc'
+            s.version      = '1.150.0-2rc'
     s.summary      = 'Securiti\'s mobile SDK provides a lightweight CMP without a UI, ideal for custom interfaces or size constraints. tvOS build.'
     s.description  = <<-DESC
 Manage user privacy preferences with core functionalities, suited for custom UIs or limited app sizes, maintaining compliance. This pod ships the tvOS (Apple TV) slices of the framework.
