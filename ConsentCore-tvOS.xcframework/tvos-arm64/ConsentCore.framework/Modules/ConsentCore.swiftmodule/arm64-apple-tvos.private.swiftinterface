@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-tvos17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ConsentCore
 import AdSupport
 import AppTrackingTransparency
+import Combine
 @_exported import ConsentCore
 import CoreLocation
 import Foundation
@@ -210,6 +211,24 @@ extension ConsentCore.Purpose : Swift.Hashable {
 @objc @_inheritsConvenienceInitializers public class SDKListener : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
+}
+public enum ConsentChange : Swift.Equatable {
+  case purpose(id: Swift.Int, status: ConsentCore.ConsentStatus)
+  case permission(key: ConsentCore.PrivaciKey, status: ConsentCore.ConsentStatus)
+  public static func == (a: ConsentCore.ConsentChange, b: ConsentCore.ConsentChange) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class ConsentListenerToken {
+  final public func cancel()
+  @objc deinit
+}
+extension ConsentCore.ConsentSDK {
+  @discardableResult
+  public func addConsentChangeListener(deliverOn queue: Dispatch.DispatchQueue = .main, _ handler: @escaping (ConsentCore.ConsentChange) -> Swift.Void) -> ConsentCore.ConsentListenerToken
+  public func removeAllConsentChangeListeners()
+  @available(iOS 13.0, *)
+  public var consentChanges: Combine.AnyPublisher<ConsentCore.ConsentChange, Swift.Never> {
+    get
+  }
 }
 public struct SDK {
   public var sdkId: Swift.Int?

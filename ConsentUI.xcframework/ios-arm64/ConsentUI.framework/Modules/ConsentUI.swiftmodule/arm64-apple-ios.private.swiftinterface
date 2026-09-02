@@ -129,6 +129,24 @@ public enum ConsentStatus : Swift.String, Swift.Codable, Swift.Hashable, Swift.E
   @objc override dynamic public init()
   @objc deinit
 }
+public enum ConsentChange : Swift.Equatable {
+  case purpose(id: Swift.Int, status: ConsentUI.ConsentStatus)
+  case permission(key: ConsentUI.PrivaciKey, status: ConsentUI.ConsentStatus)
+  public static func == (a: ConsentUI.ConsentChange, b: ConsentUI.ConsentChange) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class ConsentListenerToken {
+  final public func cancel()
+  @objc deinit
+}
+extension ConsentUI.ConsentSDK {
+  @discardableResult
+  public func addConsentChangeListener(deliverOn queue: Dispatch.DispatchQueue = .main, _ handler: @escaping (ConsentUI.ConsentChange) -> Swift.Void) -> ConsentUI.ConsentListenerToken
+  public func removeAllConsentChangeListeners()
+  @available(iOS 13.0, *)
+  public var consentChanges: Combine.AnyPublisher<ConsentUI.ConsentChange, Swift.Never> {
+    get
+  }
+}
 @objc public enum SDKStatus : Swift.Int {
   case available
   case notAvailable
@@ -572,10 +590,10 @@ extension ConsentUI.ConsentSDK {
   #endif
 }
 extension ConsentUI.ConsentSDK {
-  public func presentConsentBanner()
-  public func presentSettingPrompt(permissionId: ConsentUI.PrivaciKey)
-  public func presentPreferenceCenter()
-  public func openLink(link: Swift.String)
+  public func presentConsentBanner(from presenter: UIKit.UIViewController? = nil)
+  public func presentSettingPrompt(permissionId: ConsentUI.PrivaciKey, from presenter: UIKit.UIViewController? = nil)
+  public func presentPreferenceCenter(from presenter: UIKit.UIViewController? = nil)
+  public func openLink(link: Swift.String, from presenter: UIKit.UIViewController? = nil)
   public func registerFonts(heading: ConsentUI.CustomFont? = nil, body: ConsentUI.CustomFont? = nil, subHeading: ConsentUI.CustomFont? = nil, subHeadingLight: ConsentUI.CustomFont? = nil)
   public func registerColors(colors: ConsentUI.CustomColors)
   public func checkConsentBy(permissionId: ConsentUI.PrivaciKey, callback: @escaping (ConsentUI.ConsentStatus) -> Swift.Void)
@@ -615,6 +633,50 @@ public struct WebViewConfig {
   public let blockedPageHTML: Swift.String?
   public init(allowedDomains: [Swift.String] = [], blockedPageHTML: Swift.String? = nil)
 }
+@_cdecl("SecuritiConsent_SetReadyCallback")
+public func SecuritiConsent_SetReadyCallback(_ cb: @convention(c) (Swift.Int32) -> Swift.Void)
+@_cdecl("SecuritiConsent_SetConsentChangedCallback")
+public func SecuritiConsent_SetConsentChangedCallback(_ cb: @convention(c) (Swift.UnsafePointer<Swift.CChar>?) -> Swift.Void)
+@_cdecl("SecuritiConsent_SetErrorCallback")
+public func SecuritiConsent_SetErrorCallback(_ cb: @convention(c) (Swift.UnsafePointer<Swift.CChar>?) -> Swift.Void)
+@_cdecl("SecuritiConsent_Initialize")
+public func SecuritiConsent_Initialize(_ appURL: Swift.UnsafePointer<Swift.CChar>?, _ cdnURL: Swift.UnsafePointer<Swift.CChar>?, _ tenantID: Swift.UnsafePointer<Swift.CChar>?, _ appID: Swift.UnsafePointer<Swift.CChar>?, _ testingMode: Swift.Bool, _ loggerLevel: Swift.UnsafePointer<Swift.CChar>?, _ consentsCheckInterval: Swift.Int32, _ subjectId: Swift.UnsafePointer<Swift.CChar>?, _ languageCode: Swift.UnsafePointer<Swift.CChar>?, _ locationCode: Swift.UnsafePointer<Swift.CChar>?)
+@_cdecl("SecuritiConsent_PresentConsentBannerWhenReady")
+public func SecuritiConsent_PresentConsentBannerWhenReady()
+@_cdecl("SecuritiConsent_PresentPreferenceCenter")
+public func SecuritiConsent_PresentPreferenceCenter()
+@_cdecl("SecuritiConsent_GetSDKStatus")
+public func SecuritiConsent_GetSDKStatus() -> Swift.Int32
+@_cdecl("SecuritiConsent_IsReady")
+public func SecuritiConsent_IsReady() -> Swift.Bool
+@_cdecl("SecuritiConsent_GetPurposes")
+public func SecuritiConsent_GetPurposes() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("SecuritiConsent_GetPermissions")
+public func SecuritiConsent_GetPermissions() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("SecuritiConsent_GetConsentByPurposeId")
+public func SecuritiConsent_GetConsentByPurposeId(_ purposeId: Swift.Int32) -> Swift.Int32
+@_cdecl("SecuritiConsent_GetConsentByPermissionId")
+public func SecuritiConsent_GetConsentByPermissionId(_ permissionKey: Swift.UnsafePointer<Swift.CChar>?) -> Swift.Int32
+@_cdecl("SecuritiConsent_SetPermissionConsent")
+public func SecuritiConsent_SetPermissionConsent(_ permissionKey: Swift.UnsafePointer<Swift.CChar>?, _ consentStatus: Swift.Int32) -> Swift.Bool
+@_cdecl("SecuritiConsent_SetPurposeConsent")
+public func SecuritiConsent_SetPurposeConsent(_ purposeId: Swift.Int32, _ consentStatus: Swift.Int32) -> Swift.Bool
+@_cdecl("SecuritiConsent_ResetConsents")
+public func SecuritiConsent_ResetConsents()
+@_cdecl("SecuritiConsent_GetBannerConfig")
+public func SecuritiConsent_GetBannerConfig() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("SecuritiConsent_GetSettingsPrompt")
+public func SecuritiConsent_GetSettingsPrompt() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("SecuritiConsent_GetGCMConfig")
+public func SecuritiConsent_GetGCMConfig() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("SecuritiConsent_GetGCMConsents")
+public func SecuritiConsent_GetGCMConsents() -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("SecuritiConsent_GetSdksInPurpose")
+public func SecuritiConsent_GetSdksInPurpose(_ purposeId: Swift.Int32) -> Swift.UnsafePointer<Swift.CChar>?
+@_cdecl("SecuritiConsent_RemoveListeners")
+public func SecuritiConsent_RemoveListeners()
+@_cdecl("SecuritiConsent_UploadConsents")
+public func SecuritiConsent_UploadConsents(_ requestJson: Swift.UnsafePointer<Swift.CChar>?) -> Swift.Bool
 extension ConsentUI.ConsentStatus : Swift.RawRepresentable {}
 extension ConsentUI.SDKStatus : Swift.Equatable {}
 extension ConsentUI.SDKStatus : Swift.Hashable {}

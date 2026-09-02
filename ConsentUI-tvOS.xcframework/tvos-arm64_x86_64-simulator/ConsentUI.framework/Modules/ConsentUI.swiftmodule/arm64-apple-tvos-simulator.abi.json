@@ -3546,6 +3546,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ConsentUI"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDKListener",
         "printedName": "SDKListener",
@@ -3641,6 +3648,227 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentChange",
+        "printedName": "ConsentChange",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "purpose",
+            "printedName": "purpose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentUI.ConsentChange.Type) -> (Swift.Int, ConsentUI.ConsentStatus) -> ConsentUI.ConsentChange",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, ConsentUI.ConsentStatus) -> ConsentUI.ConsentChange",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentUI.ConsentChange",
+                        "usr": "s:9ConsentUI0A6ChangeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(id: Swift.Int, status: ConsentUI.ConsentStatus)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentStatus",
+                            "printedName": "ConsentUI.ConsentStatus",
+                            "usr": "s:9ConsentUI0A6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConsentUI.ConsentChange.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentUI.ConsentChange",
+                        "usr": "s:9ConsentUI0A6ChangeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ConsentUI0A6ChangeO7purposeyACSi_AA0A6StatusOtcACmF",
+            "mangledName": "$s9ConsentUI0A6ChangeO7purposeyACSi_AA0A6StatusOtcACmF",
+            "moduleName": "ConsentUI"
+          },
+          {
+            "kind": "Var",
+            "name": "permission",
+            "printedName": "permission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentUI.ConsentChange.Type) -> (ConsentUI.PrivaciKey, ConsentUI.ConsentStatus) -> ConsentUI.ConsentChange",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ConsentUI.PrivaciKey, ConsentUI.ConsentStatus) -> ConsentUI.ConsentChange",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentUI.ConsentChange",
+                        "usr": "s:9ConsentUI0A6ChangeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(key: ConsentUI.PrivaciKey, status: ConsentUI.ConsentStatus)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PrivaciKey",
+                            "printedName": "ConsentUI.PrivaciKey",
+                            "usr": "s:9ConsentUI10PrivaciKeyO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentStatus",
+                            "printedName": "ConsentUI.ConsentStatus",
+                            "usr": "s:9ConsentUI0A6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConsentUI.ConsentChange.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentUI.ConsentChange",
+                        "usr": "s:9ConsentUI0A6ChangeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9ConsentUI0A6ChangeO10permissionyAcA10PrivaciKeyO_AA0A6StatusOtcACmF",
+            "mangledName": "$s9ConsentUI0A6ChangeO10permissionyAcA10PrivaciKeyO_AA0A6StatusOtcACmF",
+            "moduleName": "ConsentUI"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentChange",
+                "printedName": "ConsentUI.ConsentChange",
+                "usr": "s:9ConsentUI0A6ChangeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentChange",
+                "printedName": "ConsentUI.ConsentChange",
+                "usr": "s:9ConsentUI0A6ChangeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ConsentUI0A6ChangeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9ConsentUI0A6ChangeO2eeoiySbAC_ACtFZ",
+            "moduleName": "ConsentUI",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9ConsentUI0A6ChangeO",
+        "mangledName": "$s9ConsentUI0A6ChangeO",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentListenerToken",
+        "printedName": "ConsentListenerToken",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ConsentUI0A13ListenerTokenC6cancelyyF",
+            "mangledName": "$s9ConsentUI0A13ListenerTokenC6cancelyyF",
+            "moduleName": "ConsentUI",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9ConsentUI0A13ListenerTokenC",
+        "mangledName": "$s9ConsentUI0A13ListenerTokenC",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -23662,6 +23890,150 @@
           },
           {
             "kind": "Function",
+            "name": "addConsentChangeListener",
+            "printedName": "addConsentChangeListener(deliverOn:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentListenerToken",
+                "printedName": "ConsentUI.ConsentListenerToken",
+                "usr": "s:9ConsentUI0A13ListenerTokenC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentUI.ConsentChange) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentChange",
+                    "printedName": "ConsentUI.ConsentChange",
+                    "usr": "s:9ConsentUI0A6ChangeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ConsentUI0A3SDKC03addA14ChangeListener9deliverOn_AA0aF5TokenCSo17OS_dispatch_queueC_yAA0aE0OctF",
+            "mangledName": "$s9ConsentUI0A3SDKC03addA14ChangeListener9deliverOn_AA0aF5TokenCSo17OS_dispatch_queueC_yAA0aE0OctF",
+            "moduleName": "ConsentUI",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllConsentChangeListeners",
+            "printedName": "removeAllConsentChangeListeners()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ConsentUI0A3SDKC09removeAllA15ChangeListenersyyF",
+            "mangledName": "$s9ConsentUI0A3SDKC09removeAllA15ChangeListenersyyF",
+            "moduleName": "ConsentUI",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "consentChanges",
+            "printedName": "consentChanges",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<ConsentUI.ConsentChange, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentChange",
+                    "printedName": "ConsentUI.ConsentChange",
+                    "usr": "s:9ConsentUI0A6ChangeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ConsentUI0A3SDKC14consentChanges7Combine12AnyPublisherVyAA0A6ChangeOs5NeverOGvp",
+            "mangledName": "$s9ConsentUI0A3SDKC14consentChanges7Combine12AnyPublisherVyAA0A6ChangeOs5NeverOGvp",
+            "moduleName": "ConsentUI",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<ConsentUI.ConsentChange, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentUI.ConsentChange",
+                        "usr": "s:9ConsentUI0A6ChangeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ConsentUI0A3SDKC14consentChanges7Combine12AnyPublisherVyAA0A6ChangeOs5NeverOGvg",
+                "mangledName": "$s9ConsentUI0A3SDKC14consentChanges7Combine12AnyPublisherVyAA0A6ChangeOs5NeverOGvg",
+                "moduleName": "ConsentUI",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
             "name": "setupSDK",
             "printedName": "setupSDK(options:)",
             "children": [
@@ -24166,20 +24538,36 @@
           {
             "kind": "Function",
             "name": "presentConsentBanner",
-            "printedName": "presentConsentBanner()",
+            "printedName": "presentConsentBanner(from:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9ConsentUI0A3SDKC07presentA6BanneryyF",
-            "mangledName": "$s9ConsentUI0A3SDKC07presentA6BanneryyF",
+            "usr": "s:9ConsentUI0A3SDKC07presentA6Banner4fromySo16UIViewControllerCSg_tF",
+            "mangledName": "$s9ConsentUI0A3SDKC07presentA6Banner4fromySo16UIViewControllerCSg_tF",
             "moduleName": "ConsentUI",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -24187,7 +24575,7 @@
           {
             "kind": "Function",
             "name": "presentSettingPrompt",
-            "printedName": "presentSettingPrompt(permissionId:)",
+            "printedName": "presentSettingPrompt(permissionId:from:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24199,11 +24587,26 @@
                 "name": "PrivaciKey",
                 "printedName": "ConsentUI.PrivaciKey",
                 "usr": "s:9ConsentUI10PrivaciKeyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9ConsentUI0A3SDKC20presentSettingPrompt12permissionIdyAA10PrivaciKeyO_tF",
-            "mangledName": "$s9ConsentUI0A3SDKC20presentSettingPrompt12permissionIdyAA10PrivaciKeyO_tF",
+            "usr": "s:9ConsentUI0A3SDKC20presentSettingPrompt12permissionId4fromyAA10PrivaciKeyO_So16UIViewControllerCSgtF",
+            "mangledName": "$s9ConsentUI0A3SDKC20presentSettingPrompt12permissionId4fromyAA10PrivaciKeyO_So16UIViewControllerCSgtF",
             "moduleName": "ConsentUI",
             "declAttributes": [
               "AccessControl"
@@ -24214,17 +24617,32 @@
           {
             "kind": "Function",
             "name": "presentPreferenceCenter",
-            "printedName": "presentPreferenceCenter()",
+            "printedName": "presentPreferenceCenter(from:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9ConsentUI0A3SDKC23presentPreferenceCenteryyF",
-            "mangledName": "$s9ConsentUI0A3SDKC23presentPreferenceCenteryyF",
+            "usr": "s:9ConsentUI0A3SDKC23presentPreferenceCenter4fromySo16UIViewControllerCSg_tF",
+            "mangledName": "$s9ConsentUI0A3SDKC23presentPreferenceCenter4fromySo16UIViewControllerCSg_tF",
             "moduleName": "ConsentUI",
             "declAttributes": [
               "AccessControl"
@@ -24235,7 +24653,7 @@
           {
             "kind": "Function",
             "name": "openLink",
-            "printedName": "openLink(link:)",
+            "printedName": "openLink(link:from:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24247,11 +24665,26 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9ConsentUI0A3SDKC8openLink4linkySS_tF",
-            "mangledName": "$s9ConsentUI0A3SDKC8openLink4linkySS_tF",
+            "usr": "s:9ConsentUI0A3SDKC8openLink4link4fromySS_So16UIViewControllerCSgtF",
+            "mangledName": "$s9ConsentUI0A3SDKC8openLink4link4fromySS_So16UIViewControllerCSgtF",
             "moduleName": "ConsentUI",
             "declAttributes": [
               "AccessControl"
@@ -24966,6 +25399,987 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "ConsentUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_SetReadyCallback",
+        "printedName": "SecuritiConsent_SetReadyCallback(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.Int32) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_SetReadyCallback:",
+        "mangledName": "$s9ConsentUI08SecuritiA17_SetReadyCallbackyyys5Int32VXCF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_SetConsentChangedCallback",
+        "printedName": "SecuritiConsent_SetConsentChangedCallback(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.UnsafePointer<Swift.Int8>?) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_SetConsentChangedCallback:",
+        "mangledName": "$s9ConsentUI08Securitia4_SetA15ChangedCallbackyyySPys4Int8VGSgXCF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_SetErrorCallback",
+        "printedName": "SecuritiConsent_SetErrorCallback(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.UnsafePointer<Swift.Int8>?) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_SetErrorCallback:",
+        "mangledName": "$s9ConsentUI08SecuritiA17_SetErrorCallbackyyySPys4Int8VGSgXCF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_Initialize",
+        "printedName": "SecuritiConsent_Initialize(_:_:_:_:_:_:_:_:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_Initialize::::::::::",
+        "mangledName": "$s9ConsentUI08SecuritiA11_InitializeyySPys4Int8VGSg_A3FSbAFs5Int32VA3FtF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_PresentConsentBannerWhenReady",
+        "printedName": "SecuritiConsent_PresentConsentBannerWhenReady()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_PresentConsentBannerWhenReady",
+        "mangledName": "$s9ConsentUI08Securitia8_PresentA15BannerWhenReadyyyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_PresentPreferenceCenter",
+        "printedName": "SecuritiConsent_PresentPreferenceCenter()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_PresentPreferenceCenter",
+        "mangledName": "$s9ConsentUI08SecuritiA24_PresentPreferenceCenteryyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetSDKStatus",
+        "printedName": "SecuritiConsent_GetSDKStatus()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetSDKStatus",
+        "mangledName": "$s9ConsentUI08SecuritiA13_GetSDKStatuss5Int32VyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_IsReady",
+        "printedName": "SecuritiConsent_IsReady()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_IsReady",
+        "mangledName": "$s9ConsentUI08SecuritiA8_IsReadySbyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetPurposes",
+        "printedName": "SecuritiConsent_GetPurposes()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetPurposes",
+        "mangledName": "$s9ConsentUI08SecuritiA12_GetPurposesSPys4Int8VGSgyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetPermissions",
+        "printedName": "SecuritiConsent_GetPermissions()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetPermissions",
+        "mangledName": "$s9ConsentUI08SecuritiA15_GetPermissionsSPys4Int8VGSgyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetConsentByPurposeId",
+        "printedName": "SecuritiConsent_GetConsentByPurposeId(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetConsentByPurposeId:",
+        "mangledName": "$s9ConsentUI08Securitia4_GetA11ByPurposeIdys5Int32VADF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetConsentByPermissionId",
+        "printedName": "SecuritiConsent_GetConsentByPermissionId(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetConsentByPermissionId:",
+        "mangledName": "$s9ConsentUI08Securitia4_GetA14ByPermissionIdys5Int32VSPys4Int8VGSgF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_SetPermissionConsent",
+        "printedName": "SecuritiConsent_SetPermissionConsent(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_SetPermissionConsent::",
+        "mangledName": "$s9ConsentUI08Securitia14_SetPermissionA0ySbSPys4Int8VGSg_s5Int32VtF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_SetPurposeConsent",
+        "printedName": "SecuritiConsent_SetPurposeConsent(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_SetPurposeConsent::",
+        "mangledName": "$s9ConsentUI08Securitia11_SetPurposeA0ySbs5Int32V_ADtF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_ResetConsents",
+        "printedName": "SecuritiConsent_ResetConsents()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_ResetConsents",
+        "mangledName": "$s9ConsentUI08SecuritiA14_ResetConsentsyyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetBannerConfig",
+        "printedName": "SecuritiConsent_GetBannerConfig()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetBannerConfig",
+        "mangledName": "$s9ConsentUI08SecuritiA16_GetBannerConfigSPys4Int8VGSgyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetSettingsPrompt",
+        "printedName": "SecuritiConsent_GetSettingsPrompt()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetSettingsPrompt",
+        "mangledName": "$s9ConsentUI08SecuritiA18_GetSettingsPromptSPys4Int8VGSgyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetGCMConfig",
+        "printedName": "SecuritiConsent_GetGCMConfig()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetGCMConfig",
+        "mangledName": "$s9ConsentUI08SecuritiA13_GetGCMConfigSPys4Int8VGSgyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetGCMConsents",
+        "printedName": "SecuritiConsent_GetGCMConsents()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetGCMConsents",
+        "mangledName": "$s9ConsentUI08SecuritiA15_GetGCMConsentsSPys4Int8VGSgyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_GetSdksInPurpose",
+        "printedName": "SecuritiConsent_GetSdksInPurpose(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_GetSdksInPurpose:",
+        "mangledName": "$s9ConsentUI08SecuritiA17_GetSdksInPurposeySPys4Int8VGSgs5Int32VF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_RemoveListeners",
+        "printedName": "SecuritiConsent_RemoveListeners()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_RemoveListeners",
+        "mangledName": "$s9ConsentUI08SecuritiA16_RemoveListenersyyF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SecuritiConsent_UploadConsents",
+        "printedName": "SecuritiConsent_UploadConsents(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)SecuritiConsent_UploadConsents:",
+        "mangledName": "$s9ConsentUI08SecuritiA15_UploadConsentsySbSPys4Int8VGSgF",
+        "moduleName": "ConsentUI",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -25805,6 +27219,27 @@
       "offset": 300,
       "length": 11,
       "value": "\"withdrawn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKListener.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKListener.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 38,
+      "value": "\"ai.securiti.consent.change-listeners\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKListener.swift",
+      "kind": "Dictionary",
+      "offset": 2296,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKStatus.swift",
@@ -29424,6 +30859,13 @@
       "offset": 212,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/SecuritiConsentObjCBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1368,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/ConsentUI-cuxcrupmktfkwbbyqtddhhelkmki\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ConsentUI\/IntermediateBuildFilesPath\/ConsentUI.build\/Release-appletvsimulator\/ConsentUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",

@@ -360,6 +360,150 @@
           },
           {
             "kind": "Function",
+            "name": "addConsentChangeListener",
+            "printedName": "addConsentChangeListener(deliverOn:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentListenerToken",
+                "printedName": "ConsentCore.ConsentListenerToken",
+                "usr": "s:11ConsentCore0A13ListenerTokenC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentCore.ConsentChange) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentChange",
+                    "printedName": "ConsentCore.ConsentChange",
+                    "usr": "s:11ConsentCore0A6ChangeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ConsentCore0A3SDKC03addA14ChangeListener9deliverOn_AA0aF5TokenCSo17OS_dispatch_queueC_yAA0aE0OctF",
+            "mangledName": "$s11ConsentCore0A3SDKC03addA14ChangeListener9deliverOn_AA0aF5TokenCSo17OS_dispatch_queueC_yAA0aE0OctF",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllConsentChangeListeners",
+            "printedName": "removeAllConsentChangeListeners()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ConsentCore0A3SDKC09removeAllA15ChangeListenersyyF",
+            "mangledName": "$s11ConsentCore0A3SDKC09removeAllA15ChangeListenersyyF",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "consentChanges",
+            "printedName": "consentChanges",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<ConsentCore.ConsentChange, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentChange",
+                    "printedName": "ConsentCore.ConsentChange",
+                    "usr": "s:11ConsentCore0A6ChangeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ConsentCore0A3SDKC14consentChanges7Combine12AnyPublisherVyAA0A6ChangeOs5NeverOGvp",
+            "mangledName": "$s11ConsentCore0A3SDKC14consentChanges7Combine12AnyPublisherVyAA0A6ChangeOs5NeverOGvp",
+            "moduleName": "ConsentCore",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<ConsentCore.ConsentChange, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentCore.ConsentChange",
+                        "usr": "s:11ConsentCore0A6ChangeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ConsentCore0A3SDKC14consentChanges7Combine12AnyPublisherVyAA0A6ChangeOs5NeverOGvg",
+                "mangledName": "$s11ConsentCore0A3SDKC14consentChanges7Combine12AnyPublisherVyAA0A6ChangeOs5NeverOGvg",
+                "moduleName": "ConsentCore",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
             "name": "setupSDK",
             "printedName": "setupSDK(options:)",
             "children": [
@@ -8156,6 +8300,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ConsentCore"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDKListener",
         "printedName": "SDKListener",
@@ -8251,6 +8402,227 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentChange",
+        "printedName": "ConsentChange",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "purpose",
+            "printedName": "purpose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentCore.ConsentChange.Type) -> (Swift.Int, ConsentCore.ConsentStatus) -> ConsentCore.ConsentChange",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, ConsentCore.ConsentStatus) -> ConsentCore.ConsentChange",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentCore.ConsentChange",
+                        "usr": "s:11ConsentCore0A6ChangeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(id: Swift.Int, status: ConsentCore.ConsentStatus)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentStatus",
+                            "printedName": "ConsentCore.ConsentStatus",
+                            "usr": "s:11ConsentCore0A6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConsentCore.ConsentChange.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentCore.ConsentChange",
+                        "usr": "s:11ConsentCore0A6ChangeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ConsentCore0A6ChangeO7purposeyACSi_AA0A6StatusOtcACmF",
+            "mangledName": "$s11ConsentCore0A6ChangeO7purposeyACSi_AA0A6StatusOtcACmF",
+            "moduleName": "ConsentCore"
+          },
+          {
+            "kind": "Var",
+            "name": "permission",
+            "printedName": "permission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConsentCore.ConsentChange.Type) -> (ConsentCore.PrivaciKey, ConsentCore.ConsentStatus) -> ConsentCore.ConsentChange",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ConsentCore.PrivaciKey, ConsentCore.ConsentStatus) -> ConsentCore.ConsentChange",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentCore.ConsentChange",
+                        "usr": "s:11ConsentCore0A6ChangeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(key: ConsentCore.PrivaciKey, status: ConsentCore.ConsentStatus)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PrivaciKey",
+                            "printedName": "ConsentCore.PrivaciKey",
+                            "usr": "s:11ConsentCore10PrivaciKeyO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentStatus",
+                            "printedName": "ConsentCore.ConsentStatus",
+                            "usr": "s:11ConsentCore0A6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConsentCore.ConsentChange.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentChange",
+                        "printedName": "ConsentCore.ConsentChange",
+                        "usr": "s:11ConsentCore0A6ChangeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ConsentCore0A6ChangeO10permissionyAcA10PrivaciKeyO_AA0A6StatusOtcACmF",
+            "mangledName": "$s11ConsentCore0A6ChangeO10permissionyAcA10PrivaciKeyO_AA0A6StatusOtcACmF",
+            "moduleName": "ConsentCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentChange",
+                "printedName": "ConsentCore.ConsentChange",
+                "usr": "s:11ConsentCore0A6ChangeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentChange",
+                "printedName": "ConsentCore.ConsentChange",
+                "usr": "s:11ConsentCore0A6ChangeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ConsentCore0A6ChangeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11ConsentCore0A6ChangeO2eeoiySbAC_ACtFZ",
+            "moduleName": "ConsentCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11ConsentCore0A6ChangeO",
+        "mangledName": "$s11ConsentCore0A6ChangeO",
+        "moduleName": "ConsentCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentListenerToken",
+        "printedName": "ConsentListenerToken",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ConsentCore0A13ListenerTokenC6cancelyyF",
+            "mangledName": "$s11ConsentCore0A13ListenerTokenC6cancelyyF",
+            "moduleName": "ConsentCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ConsentCore0A13ListenerTokenC",
+        "mangledName": "$s11ConsentCore0A13ListenerTokenC",
+        "moduleName": "ConsentCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -24438,6 +24810,27 @@
       "offset": 942,
       "length": 14,
       "value": "\"hide_details\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKListener.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKListener.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 38,
+      "value": "\"ai.securiti.consent.change-listeners\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/SDKListener.swift",
+      "kind": "Dictionary",
+      "offset": 2296,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/SDK.swift",
