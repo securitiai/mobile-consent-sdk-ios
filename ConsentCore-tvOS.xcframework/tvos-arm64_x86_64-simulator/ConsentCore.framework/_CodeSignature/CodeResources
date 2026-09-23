@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FD1rTnhC6tGIrEb4KZqggKmxKm0=
+		cHB3Jci0ZQ1J7Rmrt/RFRe6XXzE=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		TtE8b+kycjA/zzJlrD06O+x5ucg=
+		b1sXqZ84ft0AvIB3JSYnybuHjVo=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		2cwGRjgIlict1iWWd+8FFVSuBfY=
+		sw3U0j/3Rv+qx1Lk8JPNPv1s8WY=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		TtE8b+kycjA/zzJlrD06O+x5ucg=
+		b1sXqZ84ft0AvIB3JSYnybuHjVo=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		5slTMbV9AbJgcN2gNtiFXCrI9F0=
+		sLd7agdodIts2QV2Z6EbPg4NWhk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JKgIunYFlXioGBGBPWldbekg7ieWi/ePN1nzJKfNOjg=
+			fd2jy40HD6t81ITICi2EaLDo1kODr1GWsEGieYl/QPU=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -102,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c/7HzEYpoC9M/yfshZBCLQY9VmdqqPNYiqYcFg8apmE=
+			Pp4CBq6DRUnyHfR49kQ1SKK64uf79qllmcNhDHYZ+U0=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JKgIunYFlXioGBGBPWldbekg7ieWi/ePN1nzJKfNOjg=
+			fd2jy40HD6t81ITICi2EaLDo1kODr1GWsEGieYl/QPU=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QwgnpFXi/MXkt+ZC5es75OAgmNrlTtnJwPE+Bch9DZs=
+			gaUPqmtCFq23lb9yM9LyAeJO/mKQCoyHCruB7ARapt4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

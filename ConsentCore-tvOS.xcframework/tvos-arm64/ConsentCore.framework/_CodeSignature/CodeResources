@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		axzOto5w5ali7brjYMIvZ1csZas=
+		iVaIkEWh1nuNLaboICxjkxzBUZc=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		TtE8b+kycjA/zzJlrD06O+x5ucg=
+		b1sXqZ84ft0AvIB3JSYnybuHjVo=
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		RGAEE2JqIVF4gvfQ+EFyhhA4KoI=
+		enfE4yhes2ZIEzJBUVC6KrawDko=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JKgIunYFlXioGBGBPWldbekg7ieWi/ePN1nzJKfNOjg=
+			fd2jy40HD6t81ITICi2EaLDo1kODr1GWsEGieYl/QPU=
 			</data>
 		</dict>
 		<key>Modules/ConsentCore.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kTmdqldHCTLhLl7CkyRRn1Ik80BTbOOERZ79cq1joFc=
+			bs3F6XqG6/bZnvBvZn5GBvSxt3XPcKSUyhnoW+m0iFY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

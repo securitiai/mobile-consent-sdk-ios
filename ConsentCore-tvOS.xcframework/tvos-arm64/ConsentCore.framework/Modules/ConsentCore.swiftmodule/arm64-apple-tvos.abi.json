@@ -24672,6 +24672,13 @@
       "value": "\"info_text\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PrivaciKey.swift",
+      "kind": "StringLiteral",
+      "offset": 7009,
+      "length": 21,
+      "value": "\"permission_consent.\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Purposes\/PurposeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 317,

@@ -10,6 +10,7 @@ import CoreImage
 import CoreLocation
 import DeveloperToolsSupport
 import Foundation
+import ImageIO
 import Intents
 import Network
 import Photos

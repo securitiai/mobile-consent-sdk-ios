@@ -25078,6 +25078,13 @@
       },
       {
         "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "ConsentUI"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -27163,6 +27170,13 @@
       "offset": 454,
       "length": 11,
       "value": "\"info_text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Permissions\/PrivaciKey.swift",
+      "kind": "StringLiteral",
+      "offset": 7009,
+      "length": 21,
+      "value": "\"permission_consent.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Models\/Common\/ConsentStatus.swift",
@@ -30744,44 +30758,72 @@
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 326,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "StringLiteral",
-      "offset": 612,
+      "offset": 627,
       "length": 14,
       "value": "\"SDK Purposes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "StringLiteral",
-      "offset": 652,
+      "offset": 667,
       "length": 13,
       "value": "\"Permissions\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "StringLiteral",
-      "offset": 612,
+      "offset": 627,
       "length": 14,
       "value": "\"SDK Purposes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "StringLiteral",
-      "offset": 652,
+      "offset": 667,
       "length": 13,
       "value": "\"Permissions\""
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 920,
+      "offset": 935,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7402,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7406,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7413,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/PreferenceCenter\/PreferenceCenterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7460,
+      "length": 3,
+      "value": "256"
     },
     {
       "filePath": "\/Users\/runner\/work\/consent-mobile-sdk\/consent-mobile-sdk\/iOSSDK\/ConsentUI\/ConsentUI\/ConsentBanner\/ConsentBannerView.swift",
