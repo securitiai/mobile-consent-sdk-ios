@@ -79,8 +79,28 @@ extension ConsentCore.PostConsentsRequest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct IabEuGdprConsents : Swift.Codable, Swift.Equatable {
+  public static func == (a: ConsentCore.IabEuGdprConsents, b: ConsentCore.IabEuGdprConsents) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct IabEuGdprTCData : Swift.Codable, Swift.Equatable {
+  public static func == (a: ConsentCore.IabEuGdprTCData, b: ConsentCore.IabEuGdprTCData) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ConsentStateTransition : Swift.Int, Swift.Codable, Swift.Hashable {
+  case noTransition
+  case grantedToDeclined
+  case declinedToGranted
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public struct PurposeConsent : Swift.Codable, Swift.Equatable {
-  public init(purposeID: Swift.Int, consentStatus: ConsentCore.ConsentStatus, timestamp: Swift.Int64, isEssential: Swift.Bool)
+  public init(purposeID: Swift.Int, consentStatus: ConsentCore.ConsentStatus, timestamp: Swift.Int64, isEssential: Swift.Bool, stateTransitioned: ConsentCore.ConsentStateTransition = .noTransition)
   public static func == (a: ConsentCore.PurposeConsent, b: ConsentCore.PurposeConsent) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -92,7 +112,7 @@ extension ConsentCore.PurposeConsent : Swift.Hashable {
   }
 }
 public struct PermissionConsent : Swift.Codable {
-  public init(permission: ConsentCore.PrivaciKey, consentStatus: ConsentCore.ConsentStatus, timestamp: Swift.Int64)
+  public init(permission: ConsentCore.PrivaciKey, consentStatus: ConsentCore.ConsentStatus, timestamp: Swift.Int64, stateTransitioned: ConsentCore.ConsentStateTransition = .noTransition)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -306,6 +326,8 @@ public struct MainConfiguration {
   public var isSettingsPromptEnabled: Swift.Bool?
   public var isGcmEnabled: Swift.Bool?
   public var gcmConfig: ConsentCore.GcmConfig?
+  public var isIabTcfEnabled: Swift.Bool?
+  public var iabTcfConfig: ConsentCore.IabTcfConfig?
 }
 extension ConsentCore.MainConfiguration : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -565,9 +587,266 @@ extension ConsentCore.CustomColors : Swift.Hashable {
     get
   }
 }
+public struct IabTcfConfig {
+  public var allowedVendorIds: [Swift.Int]?
+  public var allowedPurposeIds: [Swift.Int]?
+  public var allowedSpecialPurposeIds: [Swift.Int]?
+  public var allowedFeatureIds: [Swift.Int]?
+  public var allowedSpecialFeatureIds: [Swift.Int]?
+  public var allowedStackIds: [Swift.Int]?
+  public var allowedDataCategoryIds: [Swift.Int]?
+  public var gvlVersion: Swift.Int?
+  public var purposeConsents: [Swift.Int]?
+  public var purposeLegitimateInterests: [Swift.Int]?
+  public var bannerText: [Swift.String : Swift.String]?
+  public var vendorListHeading: [Swift.String : Swift.String]?
+  public var vendorListDescription: [Swift.String : Swift.String]?
+  public var iabPurposeHeading: [Swift.String : Swift.String]?
+  public var iabPurposeDescription: [Swift.String : Swift.String]?
+  public var acceptAllButtonText: [Swift.String : Swift.String]?
+  public var rejectAllButtonText: [Swift.String : Swift.String]?
+  public var advancedSettingsText: [Swift.String : Swift.String]?
+  public var isTCStorageDescriptionEnabled: Swift.Bool?
+  public var tcStorageDescription: [Swift.String : Swift.String]?
+  public var iabVendorSubtabDescription: [Swift.String : Swift.String]?
+  public var showIabVendorSubtabDescription: Swift.Bool?
+  public var allLocations: Swift.Bool?
+  public var locations: [Swift.String]?
+  public var isGoogleAtpEnabled: Swift.Bool?
+  public var allowedGoogleAtpIds: [Swift.Int]?
+  public var googleAtpSubtabDescription: [Swift.String : Swift.String]?
+  public var showGoogleAtpSubtabDescription: Swift.Bool?
+  public init()
+}
+public struct GoogleATPProvider : Swift.Hashable {
+  public var id: Swift.Int
+  public var name: Swift.String?
+  public var policyUrl: Swift.String?
+  public init(id: Swift.Int, name: Swift.String? = nil, policyUrl: Swift.String? = nil)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GoogleATPProvider, b: ConsentCore.GoogleATPProvider) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension ConsentCore.IabTcfConfig : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension ConsentCore.IabTcfConfig : Swift.Equatable, Swift.Hashable {
+  public static func == (a: ConsentCore.IabTcfConfig, b: ConsentCore.IabTcfConfig) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct GlobalVendorList {
+  public var gvlSpecificationVersion: Swift.Int?
+  public var vendorListVersion: Swift.Int?
+  public var tcfPolicyVersion: Swift.Int?
+  public var lastUpdated: Swift.String?
+  public var purposes: [Swift.Int : ConsentCore.GVLPurpose]
+  public var specialPurposes: [Swift.Int : ConsentCore.GVLPurpose]
+  public var features: [Swift.Int : ConsentCore.GVLPurpose]
+  public var specialFeatures: [Swift.Int : ConsentCore.GVLPurpose]
+  public var stacks: [Swift.Int : ConsentCore.GVLStack]
+  public var dataCategories: [Swift.Int : ConsentCore.GVLDataCategory]
+  public var vendors: [Swift.Int : ConsentCore.GVLVendor]
+  public var googleAtpVersion: Swift.Int?
+  public var googleAcOnlyProviders: [ConsentCore.GVLGoogleAtpProvider]
+}
+public struct GVLGoogleAtpProvider : Swift.Codable, Swift.Hashable {
+  public var id: Swift.Int
+  public var name: Swift.String?
+  public var policyUrl: Swift.String?
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GVLGoogleAtpProvider, b: ConsentCore.GVLGoogleAtpProvider) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GVLPurpose : Swift.Codable, Swift.Hashable {
+  public var id: Swift.Int
+  public var name: Swift.String?
+  public var description: Swift.String?
+  public var illustrations: [Swift.String]?
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GVLPurpose, b: ConsentCore.GVLPurpose) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GVLStack : Swift.Codable, Swift.Hashable {
+  public var id: Swift.Int
+  public var name: Swift.String?
+  public var description: Swift.String?
+  public var purposes: [Swift.Int]?
+  public var specialFeatures: [Swift.Int]?
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GVLStack, b: ConsentCore.GVLStack) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GVLDataCategory : Swift.Codable, Swift.Hashable {
+  public var id: Swift.Int
+  public var name: Swift.String?
+  public var description: Swift.String?
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GVLDataCategory, b: ConsentCore.GVLDataCategory) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GVLVendorURL : Swift.Codable, Swift.Hashable {
+  public var langId: Swift.String?
+  public var privacy: Swift.String?
+  public var legIntClaim: Swift.String?
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GVLVendorURL, b: ConsentCore.GVLVendorURL) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GVLDataRetention : Swift.Codable, Swift.Hashable {
+  public var stdRetention: Swift.Int?
+  public var purposes: [Swift.String : Swift.Int]?
+  public var specialPurposes: [Swift.String : Swift.Int]?
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GVLDataRetention, b: ConsentCore.GVLDataRetention) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GVLVendor : Swift.Codable, Swift.Hashable {
+  public var id: Swift.Int
+  public var name: Swift.String?
+  public var purposes: [Swift.Int]?
+  public var legIntPurposes: [Swift.Int]?
+  public var flexiblePurposes: [Swift.Int]?
+  public var specialPurposes: [Swift.Int]?
+  public var features: [Swift.Int]?
+  public var specialFeatures: [Swift.Int]?
+  public var cookieMaxAgeSeconds: Swift.Int64?
+  public var usesCookies: Swift.Bool?
+  public var usesNonCookieAccess: Swift.Bool?
+  public var deviceStorageDisclosureUrl: Swift.String?
+  public var dataRetention: ConsentCore.GVLDataRetention?
+  public var dataDeclaration: [Swift.Int]?
+  public var urls: [ConsentCore.GVLVendorURL]?
+  public var deletedDate: Swift.String?
+  public var isDeleted: Swift.Bool {
+    get
+  }
+  public func privacyPolicyURL(language: Swift.String) -> Swift.String?
+  public func legitimateInterestClaimURL(language: Swift.String) -> Swift.String?
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GVLVendor, b: ConsentCore.GVLVendor) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension ConsentCore.GlobalVendorList : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension ConsentCore.GlobalVendorList : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ConsentCore.GlobalVendorList, b: ConsentCore.GlobalVendorList) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TCFChoices : Swift.Equatable, Swift.Hashable {
+  public var purposeConsents: Swift.Set<Swift.Int>
+  public var purposeLegitimateInterests: Swift.Set<Swift.Int>
+  public var specialFeatureOptIns: Swift.Set<Swift.Int>
+  public var vendorConsents: Swift.Set<Swift.Int>
+  public var vendorLegitimateInterests: Swift.Set<Swift.Int>
+  public var googleAtpConsents: Swift.Set<Swift.Int>
+  public init(purposeConsents: Swift.Set<Swift.Int> = [], purposeLegitimateInterests: Swift.Set<Swift.Int> = [], specialFeatureOptIns: Swift.Set<Swift.Int> = [], vendorConsents: Swift.Set<Swift.Int> = [], vendorLegitimateInterests: Swift.Set<Swift.Int> = [], googleAtpConsents: Swift.Set<Swift.Int> = [])
+  public static func == (a: ConsentCore.TCFChoices, b: ConsentCore.TCFChoices) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TCFConsents : Swift.Equatable {
+  public let tcString: Swift.String
+  public let gdprApplies: Swift.Bool?
+  public let cmpId: Swift.Int
+  public let cmpVersion: Swift.Int
+  public let vendorListVersion: Swift.Int
+  public let policyVersion: Swift.Int
+  public let consentLanguage: Swift.String
+  public let created: Foundation.Date
+  public let lastUpdated: Foundation.Date
+  public let purposeConsents: Swift.Set<Swift.Int>
+  public let purposeLegitimateInterests: Swift.Set<Swift.Int>
+  public let specialFeatureOptIns: Swift.Set<Swift.Int>
+  public let vendorConsents: Swift.Set<Swift.Int>
+  public let vendorLegitimateInterests: Swift.Set<Swift.Int>
+  public let disclosedVendors: Swift.Set<Swift.Int>
+  public let additionalConsent: Swift.String?
+  public let googleAtpConsents: Swift.Set<Swift.Int>
+  public let disclosedGoogleAtps: Swift.Set<Swift.Int>
+  public func hasPurposeConsent(_ purposeId: Swift.Int) -> Swift.Bool
+  public func hasVendorConsent(_ vendorId: Swift.Int) -> Swift.Bool
+  public func hasVendorLegitimateInterest(_ vendorId: Swift.Int) -> Swift.Bool
+  public var choices: ConsentCore.TCFChoices {
+    get
+  }
+  public static func == (a: ConsentCore.TCFConsents, b: ConsentCore.TCFConsents) -> Swift.Bool
+}
+extension ConsentCore.ConsentSDK {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func isIabTcfEnabled() async -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getIabTcfConfig() async -> ConsentCore.IabTcfConfig?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getGlobalVendorList(forceRefresh: Swift.Bool = false) async -> ConsentCore.GlobalVendorList?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getIabPurposesTranslation(languageCode: Swift.String, forceRefresh: Swift.Bool = false) async -> ConsentCore.GlobalVendorList?
+  #endif
+  public func getTCString() -> Swift.String?
+  public func getTCFConsents() -> ConsentCore.TCFConsents?
+  #if compiler(>=5.3) && $AsyncAwait
+  @discardableResult
+  public func acceptAllTCF() async -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @discardableResult
+  public func rejectAllTCF() async -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @discardableResult
+  public func setTCFChoices(_ choices: ConsentCore.TCFChoices) async -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getInitialTCFChoices() async -> ConsentCore.TCFChoices?
+  #endif
+}
 extension ConsentCore.PurposeStatus : Swift.Equatable {}
 extension ConsentCore.PurposeStatus : Swift.Hashable {}
 extension ConsentCore.PurposeStatus : Swift.RawRepresentable {}
+extension ConsentCore.ConsentStateTransition : Swift.RawRepresentable {}
 extension ConsentCore.ConsentStatus : Swift.RawRepresentable {}
 extension ConsentCore.BannerPosition : Swift.Equatable {}
 extension ConsentCore.BannerPosition : Swift.Hashable {}
