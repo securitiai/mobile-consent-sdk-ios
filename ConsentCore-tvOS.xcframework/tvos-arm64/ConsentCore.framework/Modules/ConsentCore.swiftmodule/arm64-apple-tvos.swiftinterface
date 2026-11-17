@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-tvos17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ConsentCore
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-tvos17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ConsentCore
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import AdSupport
 import AppTrackingTransparency
 import Combine
@@ -49,8 +50,8 @@ extension ConsentCore.AppPermission : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.AppPermission : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.AppPermission, b: ConsentCore.AppPermission) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -132,8 +133,8 @@ extension ConsentCore.SettingsPrompt : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.SettingsPrompt : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.SettingsPrompt, b: ConsentCore.SettingsPrompt) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -157,8 +158,8 @@ extension ConsentCore.ATTConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.ATTConfig : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.ATTConfig, b: ConsentCore.ATTConfig) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -199,8 +200,8 @@ public enum PrivaciKey : Swift.Hashable, Swift.Codable, Swift.Equatable {
   public var rawValue: Swift.String {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.PrivaciKey, b: ConsentCore.PrivaciKey) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -222,8 +223,8 @@ extension ConsentCore.Purpose : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.Purpose : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.Purpose, b: ConsentCore.Purpose) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -268,8 +269,8 @@ extension ConsentCore.SDK : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.SDK : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.SDK, b: ConsentCore.SDK) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -327,8 +328,8 @@ extension ConsentCore.MainConfiguration : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.MainConfiguration : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.MainConfiguration, b: ConsentCore.MainConfiguration) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -360,35 +361,21 @@ extension ConsentCore.NetworkError : Swift.CustomStringConvertible {
 }
 extension ConsentCore.ConsentSDK {
   public func setupSDK(options: ConsentCore.ConsentSDKOptions)
-  #if compiler(>=5.3) && $AsyncAwait
   public func uploadConsents(url: Swift.String, request: ConsentCore.PostConsentsRequest) async
-  #endif
   public func isReady(callback: @escaping (ConsentCore.SDKStatus) -> Swift.Void)
   public func getStatus() -> ConsentCore.SDKStatus
   public func removeListeners()
-  #if compiler(>=5.3) && $AsyncAwait
   public func getPermissionConsents() async -> [ConsentCore.AppPermission]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getPurposeConsents() async -> [ConsentCore.Purpose]
-  #endif
   public func setConsent(purpose: ConsentCore.Purpose, consent: ConsentCore.ConsentStatus) -> Swift.Bool
   public func setConsent(permission: ConsentCore.AppPermission, consent: ConsentCore.ConsentStatus) -> Swift.Bool
-  #if compiler(>=5.3) && $AsyncAwait
   public func getBannerConfig(_ configuration: ConsentCore.MainConfiguration? = nil) async -> ConsentCore.BannerConfig?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getGCMConfig() async -> ConsentCore.GcmConfig?
-  #endif
   public func removeConsents()
   public func getConsent(privaciKey: ConsentCore.PrivaciKey) -> ConsentCore.ConsentStatus
   public func getConsent(purposeId: Swift.Int) -> ConsentCore.ConsentStatus
-  #if compiler(>=5.3) && $AsyncAwait
   public func getSettingsPrompt() async -> ConsentCore.SettingsPrompt?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getGCMConsents() async -> [ConsentCore.GoogleConsentType : ConsentCore.ConsentStatus]
-  #endif
 }
 public enum HttpMethod : Swift.String {
   case get
@@ -421,8 +408,8 @@ public struct GcmConfig {
 }
 extension ConsentCore.GcmConfig : Swift.Codable, Swift.Equatable, Swift.Hashable {
   public static func == (a: ConsentCore.GcmConfig, b: ConsentCore.GcmConfig) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -434,8 +421,8 @@ public struct DefaultMapping : Swift.Codable, Swift.Equatable, Swift.Hashable {
   public let adUserData: [Swift.Int]?
   public let adPersonalization: [Swift.Int]?
   public static func == (a: ConsentCore.DefaultMapping, b: ConsentCore.DefaultMapping) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -449,7 +436,7 @@ public enum GoogleConsentType : Swift.String, Swift.Codable, Swift.Hashable, Swi
   public init?(rawValue: Swift.String)
   public typealias AllCases = [ConsentCore.GoogleConsentType]
   public typealias RawValue = Swift.String
-  public static var allCases: [ConsentCore.GoogleConsentType] {
+  nonisolated public static var allCases: [ConsentCore.GoogleConsentType] {
     get
   }
   public var rawValue: Swift.String {
@@ -507,8 +494,8 @@ public struct ConsentBannerConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.ConsentBannerConfig : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.ConsentBannerConfig, b: ConsentCore.ConsentBannerConfig) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -550,8 +537,8 @@ public struct BannerConfig : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.BannerConfig : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.BannerConfig, b: ConsentCore.BannerConfig) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -574,8 +561,8 @@ public struct CustomColors : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension ConsentCore.CustomColors : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.CustomColors, b: ConsentCore.CustomColors) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -616,8 +603,8 @@ public struct GoogleATPProvider : Swift.Hashable {
   public var name: Swift.String?
   public var policyUrl: Swift.String?
   public init(id: Swift.Int, name: Swift.String? = nil, policyUrl: Swift.String? = nil)
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GoogleATPProvider, b: ConsentCore.GoogleATPProvider) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -652,9 +639,9 @@ public struct GVLGoogleAtpProvider : Swift.Codable, Swift.Hashable {
   public var id: Swift.Int
   public var name: Swift.String?
   public var policyUrl: Swift.String?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GVLGoogleAtpProvider, b: ConsentCore.GVLGoogleAtpProvider) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -665,9 +652,9 @@ public struct GVLPurpose : Swift.Codable, Swift.Hashable {
   public var name: Swift.String?
   public var description: Swift.String?
   public var illustrations: [Swift.String]?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GVLPurpose, b: ConsentCore.GVLPurpose) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -679,9 +666,9 @@ public struct GVLStack : Swift.Codable, Swift.Hashable {
   public var description: Swift.String?
   public var purposes: [Swift.Int]?
   public var specialFeatures: [Swift.Int]?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GVLStack, b: ConsentCore.GVLStack) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -691,9 +678,9 @@ public struct GVLDataCategory : Swift.Codable, Swift.Hashable {
   public var id: Swift.Int
   public var name: Swift.String?
   public var description: Swift.String?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GVLDataCategory, b: ConsentCore.GVLDataCategory) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -703,9 +690,9 @@ public struct GVLVendorURL : Swift.Codable, Swift.Hashable {
   public var langId: Swift.String?
   public var privacy: Swift.String?
   public var legIntClaim: Swift.String?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GVLVendorURL, b: ConsentCore.GVLVendorURL) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -715,9 +702,9 @@ public struct GVLDataRetention : Swift.Codable, Swift.Hashable {
   public var stdRetention: Swift.Int?
   public var purposes: [Swift.String : Swift.Int]?
   public var specialPurposes: [Swift.String : Swift.Int]?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GVLDataRetention, b: ConsentCore.GVLDataRetention) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -745,9 +732,9 @@ public struct GVLVendor : Swift.Codable, Swift.Hashable {
   }
   public func privacyPolicyURL(language: Swift.String) -> Swift.String?
   public func legitimateInterestClaimURL(language: Swift.String) -> Swift.String?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GVLVendor, b: ConsentCore.GVLVendor) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -758,8 +745,8 @@ extension ConsentCore.GlobalVendorList : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 extension ConsentCore.GlobalVendorList : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ConsentCore.GlobalVendorList, b: ConsentCore.GlobalVendorList) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -806,35 +793,19 @@ public struct TCFConsents : Swift.Equatable {
   public static func == (a: ConsentCore.TCFConsents, b: ConsentCore.TCFConsents) -> Swift.Bool
 }
 extension ConsentCore.ConsentSDK {
-  #if compiler(>=5.3) && $AsyncAwait
   public func isIabTcfEnabled() async -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getIabTcfConfig() async -> ConsentCore.IabTcfConfig?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getGlobalVendorList(forceRefresh: Swift.Bool = false) async -> ConsentCore.GlobalVendorList?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getIabPurposesTranslation(languageCode: Swift.String, forceRefresh: Swift.Bool = false) async -> ConsentCore.GlobalVendorList?
-  #endif
   public func getTCString() -> Swift.String?
   public func getTCFConsents() -> ConsentCore.TCFConsents?
-  #if compiler(>=5.3) && $AsyncAwait
   @discardableResult
   public func acceptAllTCF() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @discardableResult
   public func rejectAllTCF() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @discardableResult
   public func setTCFChoices(_ choices: ConsentCore.TCFChoices) async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getInitialTCFChoices() async -> ConsentCore.TCFChoices?
-  #endif
 }
 extension ConsentCore.PurposeStatus : Swift.Equatable {}
 extension ConsentCore.PurposeStatus : Swift.Hashable {}
