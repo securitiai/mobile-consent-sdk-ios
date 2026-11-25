@@ -42449,30 +42449,23 @@
     {
       "filePath": "\/Users\/runner\/work\/dcc-consent-mobile-sdk-ios\/dcc-consent-mobile-sdk-ios\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11812,
-      "length": 24,
-      "value": "\"data processing in its\""
+      "offset": 12143,
+      "length": 27,
+      "value": "\"'s data processing in its\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dcc-consent-mobile-sdk-ios\/dcc-consent-mobile-sdk-ios\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11873,
+      "offset": 12207,
       "length": 17,
       "value": "\"privacy policy.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dcc-consent-mobile-sdk-ios\/dcc-consent-mobile-sdk-ios\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12044,
+      "offset": 12384,
       "length": 19,
       "value": "\"Objection applied\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/dcc-consent-mobile-sdk-ios\/dcc-consent-mobile-sdk-ios\/iOSSDK\/ConsentCore\/ConsentCore\/Extra\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 12113,
-      "length": 43,
-      "value": "\"'s data processing in its privacy policy.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dcc-consent-mobile-sdk-ios\/dcc-consent-mobile-sdk-ios\/iOSSDK\/ConsentCore\/ConsentCore\/Network\/Params.swift",
