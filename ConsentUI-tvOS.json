@@ -18,5 +18,6 @@
   "1.154.0-2rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.154.0-2rc/ConsentUI-tvOS_with_symbols.xcframework.zip",
   "1.154.0-3rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.154.0-3rc/ConsentUI-tvOS_with_symbols.xcframework.zip",
   "1.154.0-4rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.154.0-4rc/ConsentUI-tvOS_with_symbols.xcframework.zip",
-  "1.154.0-5rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.154.0-5rc/ConsentUI-tvOS_with_symbols.xcframework.zip"
+  "1.154.0-5rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.154.0-5rc/ConsentUI-tvOS_with_symbols.xcframework.zip",
+  "1.154.0-6rc": "https://github.com/securitiai/mobile-consent-sdk-ios/releases/download/1.154.0-6rc/ConsentUI-tvOS_with_symbols.xcframework.zip"
 }
